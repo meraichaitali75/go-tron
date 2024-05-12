@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Go Tron | Project</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://icono-49d6.kxcdn.com/icono.min.css">
+
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="assets/css/custom_select.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div id="wrapper" class="profile-wrapper">
+    <aside id="sidebar-wrapper">
+      <div class="sidebar-brand">
+        <a href="explore_home.html">
+          <img src="./assets/img/favicon.png">
+          <h2>GoTron</h2>
+        </a>
+        <a href="javascript:;" id="close-icn"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+      <div class="user-block">
+        <a href="javascript:;"><img src="./assets/img/icons/puser.svg" class="user-img-1"></a>
+        <a href="profile.html" class="user-bn">
+          <img src="./assets/img/icons/puser.svg" class="user-img">
+          <div class="ml-2">
+            <h4>Jeffrey</h4>
+            <p class="mb-0">CFO</p>
+          </div>
+        </a>
+      </div>
+      <ul class="sidebar-nav mt-2">
+        <li>
+          <a href="project_overall.html"><img src="./assets/img/icons/overall.svg"><span>Overall</span></a>
+        </li>
+        <li>
+          <a href="project_temp.html"><img src="./assets/img/icons/project.svg"><span>Projects</span></a>
+        </li>
+        <li>
+          <a href="upload.html"><img src="./assets/img/icons/upload.svg"><span>Upload</span></a>
+        </li>
+        <!-- <li>
+          <a href="javascript:;"><img src="./assets/img/icons/room.svg"><span>Practice Room</span></a>
+        </li> -->
+        <li>
+          <a href="user_notification.html"><img src="./assets/img/icons/notification.svg"><span>Notifications</span></a>
+        </li>
+        <li>
+          <a href="explore_home.html"><img src="./assets/img/icons/explore.svg"><span>Explore</span></a>
+        </li>
+        <li class="brdr-top">
+          <span class="grp-vnt">GROUPS</span>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/lyrics.svg"><span>Lyrics</span></a>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/lyrics.svg"><span>Music</span></a>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/explore.svg"><span>Add Group</span></a>
+        </li>
+      </ul>
+    </aside>
+    <div id="app-cover">
+      <div id="player">
+        <div id="player-track">
+          <div id="track-time">
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <div id="s-area">
+            <div id="ins-time"></div>
+            <div id="s-hover"></div>
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+        <div id="player-content">
+          <div id="album-art">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active"
+              id="_1">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+            <div id="buffer-box"></div>
+          </div>
+          <div id="album-name"></div>
+          <div id="player-controls">
+            <div class="add-play">
+              <div class="add-block w-100 text-right">
+                <a href="javascript:;"><img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                    class="music-icons mr-2" width="18"></a>
+                <a href="javascript:;"><img src="./assets/img/icons/paper.svg" class="music-icn mr-2" width="15"></a>
+                <a href="javascript:;"><i class="fas fa-plus mr-2"></i></a>
+                <a href="javascript:;"><i class="fas fa-compress-alt"></i></a>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="control">
+                <div class="button" id="play-previous">
+                  <i class="fas fa-backward"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="button" id="play-pause-button">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="button" id="play-next">
+                  <i class="fas fa-forward"></i>
+                </div>
+              </div>
+            </div>
+            <div class="voice-block">
+              <a href="javascript:;"><i class="fas fa-volume-down mr-1"></i></a>
+              <span></span>
+              <a href="javascript:;"><i class="fas fa-volume-up ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="navbar-wrapper" class="common_search_dd">
+      <div class="sub-nav-box">
+        <nav class="navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header d-flex align-items-center">
+              <a href="#" class="navbar-brand sidebar-toggle"><img src="./assets/img/icons/menu-tg.svg" width="20"></a>
+              <a href="javascript:;" class="logo mr-auto d-md-block d-lg-none"><img src="assets/img/logo.png" alt=""
+                  class="img-fluid" width="120"></a>
+            </div>
+          </div>
+        </nav>
+        <div class="explore_banner_row row">
+          <div class="input-group w-100">
+            <input type="text" class="form-control exp-hm-inp" placeholder="Search" aria-label="Search Songs">
+            <img src="./assets/img/icons/search.png" class="search_icon" alt="search icon">
+            <div class="input-group-append">
+              <div class="custom-select-wrapper" id="select_search1">
+                <div class="custom-select d-flex position-absolute" id="custom-select1">
+                  <div class="custom-select__trigger">
+                    <span id="dd_value1">Songs</span>
+                    <img src="./assets/img/icons/down_arrow.png" class="down_arrow" alt="Down Arrow">
+                  </div>
+                  <div class="custom-options">
+                    <span class="custom-option dropdown-value" data-value="Musics">Musics</span>
+                    <span class="custom-option dropdown-value" data-value="Songs">Songs</span>
+                    <span class="custom-option dropdown-value" data-value="Lyrics">Lyrics</span>
+                    <span class="custom-option dropdown-value" data-value="Users">Users</span>
+                    <span class="custom-option dropdown-value" data-value="Project">Project</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="upload-box">
+        <ul class="p-0 d-flex m-0">
+          <li><a href="javascript:;"><img src="./assets/img/icons/upload.svg"></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle not-drop-tg" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>5</span>
+            </a>
+            <div class="dropdown-menu drop-not-mn" aria-labelledby="navbarDropdownMenuLink">
+              <h3>Notifications</h3>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins1.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins2.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="profile-main project-temp-wrapper">
+      <div class="profile-block mb-5">
+        <div class="pro-max">
+          <div class="sub-pf">
+            <h3>Projects</h3>
+            <p>3 projects</p>
+          </div>
+          <a href="profile.html"><button>DISPLAY VIEW</button></a>
+        </div>
+
+        <div class="temp-main m-0">
+          <a href="project_overall.html" class="back-a"><img src="./assets/img/icons/back-icn.svg"> Back</a>
+          <div class="row">
+            <div class="col-md-6 mt-3 insp-col-res">
+              <div class="hotel-main-sc">
+                <div class="d-flex align-items-center">
+                  <div class="progress progress-22">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="max-width: 90%">
+                    </div>
+                  </div>
+                  <span class="title ml-3">90%</span>
+                </div>
+                <div class="audio-player01">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <div>
+                        <h3>Hotel ceiling</h3>
+                      </div>
+                      <div class="controls">
+                        <div class="time">
+                          <div class="current">0:00</div>
+                          <div class="divider">/</div>
+                          <div class="length"></div>
+                        </div>
+                        <div class="play-container">
+                          <div class="toggle-play play">
+                          </div>
+                        </div>
+                        <div class="volume-container">
+                          <div class="volume-button">
+                            <div class="volume icono-volumeMedium"></div>
+                          </div>
+                          <div class="volume-slider">
+                            <div class="volume-percentage"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <img src="./assets/img/icons/hotel.svg" class="hotel-img-res">
+                    </div>
+                  </div>
+                  <div class="timeline">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="lyr-det-main mt-4">
+                <div class="d-flex justify-content-between align-items-center">
+                  <ul class="nav nav-tabs tabs-dark" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link det-link" id="home-tab" data-toggle="tab" href="#home-lyrc" role="tab"
+                        aria-controls="home" aria-selected="true">Lyrics</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active det-link" id="profile-tab" data-toggle="tab" href="#profile1" role="tab"
+                        aria-controls="profile" aria-selected="false">Details</a>
+                    </li>
+                  </ul>
+                  <div>
+                    <a href="javascript:;" class="Show toggk"><img src="./assets/img/icons/pen.svg" width="20"></a>
+                    <a href="javascript:;" class="Hide toggk"><img src="./assets/img/icons/pen-save.svg" width="20"></a>
+                  </div>
+                </div>
+                <div class="tab-content">
+                  <div class="tab-pane fade" id="lyrc" role="tabpanel" aria-labelledby="home-tab">1</div>
+                  <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="detail-box-pl">
+                      <div class="sub-det">
+                        <textarea
+                          class="dasable-inp dasable-txt">I’ve been staring at the hotel ceiling, Drinking everything I’ve found this evening, Trying to hold on to the sweetest feeling, So I’ll never let you go, don’t you leave me lonely.</textarea>
+                        <h6>Written&nbsp;by: <input type="text" name="" value="Nicole" class="inp-text dasable-txt">
+                        </h6>
+                        <div class="mt-4 detail-inpl">
+                          <h6>Written&nbsp;by: <input type="text" name="" value="#3920193" class="inp-text dasable-txt">
+                          </h6>
+                          <h6>Style:<input type="text" name="" value="POP" class="inp-text dasable-txt"></h6>
+                          <h6>Theme: <input type="text" name="" value="You, the only" class="inp-text dasable-txt"></h6>
+                          <h6>Language: <input type="text" name="" value="English" class="inp-text dasable-txt"></h6>
+                          <h6>Caption: <input type="text" name="" value="#Love, #POP, #Lover"
+                              class="inp-text dasable-txt"></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6  insp-col-res">
+              <div class="lyr-det-main">
+                <ul class="nav nav-tabs tabs-dark" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active det-link" id="profile-tab" data-toggle="tab" href="#profile1" role="tab"
+                      aria-controls="profile" aria-selected="false">Initiator</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="Initiator-box">
+                <img src="./assets/img/icons/ins1.svg" class="ind"><br>
+                <img src="./assets/img/icons/taj.svg" width="15">
+                <div>
+                  <h5>Nicole</h5>
+                  <p>Composer</p>
+                </div>
+              </div>
+              <div class="mt-5 Inspired-box">
+                <div class="lyr-det-main d-flex align-items-center justify-content-between">
+                  <ul class="nav nav-tabs tabs-dark" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active det-link" id="profile-tab" data-toggle="tab" href="#profile1" role="tab"
+                        aria-controls="profile" aria-selected="false">Inspired</a>
+                    </li>
+                  </ul>
+                  <p>Audio 1/3 Lyrics 1/2</p>
+                </div>
+                <div class="ins-audio-box">
+                  <div class="row">
+                    <div class="col-lg-8 col-sm-8 d-flex align-items-center insp-col-res">
+                      <img src="./assets/img/icons/ins3.svg" class="adrs-img">
+                      <div class="ml-4">
+                        <h3>Andrew</h3>
+                        <p class="m-0 d-flex">The Audio <img src="./assets/img/icons/file.svg" class="file-img"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                      <span>2 days ago</span>
+                      <div class="right-box">
+                        <a href="javascript:;">
+                          <svg class="tab-heading-01" xmlns="http://www.w3.org/2000/svg" width="13.94" height="7.378"
+                            viewBox="0 0 13.94 7.378">
+                            <path id="Path_1636" data-name="Path 1636" d="M11646.488,2104.916l3.967,3.582,8.57-6.18"
+                              transform="translate(-11645.782 -2101.619)" fill="none" stroke="#2d2d2d"
+                              stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ins-audio-box">
+                  <div class="row">
+                    <div class="col-lg-8 col-sm-8  d-flex align-items-center insp-col-res">
+                      <img src="./assets/img/icons/ins2.svg" class="adrs-img">
+                      <div class="ml-4">
+                        <h3>Jeffrey</h3>
+                        <p class="m-0 d-flex">The Audio <img src="./assets/img/icons/file.svg" class="file-img"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                      <span>3 days ago</span>
+                      <div class="right-box">
+                        <a href="javascript:;">
+                          <svg class="tab-heading-01" xmlns="http://www.w3.org/2000/svg" width="13.94" height="7.378"
+                            viewBox="0 0 13.94 7.378">
+                            <path id="Path_1636" data-name="Path 1636" d="M11646.488,2104.916l3.967,3.582,8.57-6.18"
+                              transform="translate(-11645.782 -2101.619)" fill="none" stroke="#2d2d2d"
+                              stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ins-audio-box">
+                  <div class="row">
+                    <div class="col-lg-8 col-sm-8  d-flex align-items-center insp-col-res">
+                      <img src="./assets/img/icons/ins4.jpg" class="adrs-img">
+                      <div class="ml-4">
+                        <h3>JJ</h3>
+                        <p class="m-0 d-flex">The Audio <img src="./assets/img/icons/file.svg" class="file-img"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                      <span>5 days ago</span>
+                      <div class="right-box">
+                        <a href="javascript:;">
+                          <svg class="tab-heading-01" xmlns="http://www.w3.org/2000/svg" width="13.94" height="7.378"
+                            viewBox="0 0 13.94 7.378">
+                            <path id="Path_1636" data-name="Path 1636" d="M11646.488,2104.916l3.967,3.582,8.57-6.18"
+                              transform="translate(-11645.782 -2101.619)" fill="none" stroke="#2d2d2d"
+                              stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-right proj-s-btn">
+              <a href="project_interactive.html"><button>Start Project</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer-go">
+        <div class="container">
+          <p>© Copyrights GoTron 2019</p>
+          <ul class="p-0">
+            <li><a href="javascript:;"><img src="./assets/img/icons/twitter.svg"></a></li>
+            <li><a href="javascript:;"><img src="./assets/img/icons/facebook-f.svg"></a></li>
+            <li><a href="javascript:;"><img src="./assets/img/icons/linkedin.svg"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/font.js"></script>
+  <script src="assets/js/player.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#select_search1').click(function () {
+        $("#custom-select1").toggleClass("open");
+      });
+      $("#custom-select1 .dropdown-value").on("click", function () {
+        var dataId = $(this).attr("data-value");
+        document.getElementById("dd_value1").innerHTML = dataId;
+      });
+    });
+
+    jQuery(document).ready(function () {
+      jQuery('.tab-heading-01').click(function (event) {
+        jQuery('.active-tab-gn').removeClass('active-tab-gn');
+        jQuery(this).addClass('active-tab-gn');
+        event.preventDefault();
+      });
+    });
+
+    $(document).ready(function () {
+      $('#close-icn').click(function () {
+        $('#sidebar-wrapper').hide();
+      });
+    });
+
+    $(document).ready(function () {
+      $('.sidebar-toggle').click(function () {
+        $('#sidebar-wrapper').show();
+      });
+
+    });
+  </script>
+  <script>
+    (function ($) {
+      $.fn.toggleDisabled = function () {
+        return this.each(function () {
+          var $this = $(this);
+          if ($this.attr('disabled')) $this.removeAttr('disabled');
+          else $this.attr('disabled', 'disabled');
+        });
+      };
+    })(jQuery);
+
+    $(function () {
+      $('.dasable-inp,.dasable-txt').toggleDisabled();
+      $('.toggk').click(function () {
+        $('.dasable-inp,.dasable-txt').toggleDisabled();
+      });
+    });
+
+    $('.Show').click(function () {
+      $('#target').show(500);
+      $('.Show').hide(0);
+      $('.Hide').show(0);
+    });
+    $('.Hide').click(function () {
+      $('#target').hide(500);
+      $('.Show').show(0);
+      $('.Hide').hide(0);
+    });
+    $('.toggle').click(function () {
+      $('#target').toggle('slow');
+    });
+
+  </script>
+
+  <script>
+
+    const audioPlayer01 = document.querySelector(".audio-player01");
+    const audio1 = new Audio(
+      "https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
+    );
+    //credit for song: Adrian kreativaweb@gmail.com
+
+    console.dir(audio1);
+
+    audio1.addEventListener(
+      "loadeddata",
+      () => {
+        audioPlayer01.querySelector(".time .length").textContent = getTimeCodeFromNum(
+          audio1.duration
+        );
+        audio1.volume = .75;
+      },
+      false
+    );
+
+    //click on timeline to skip around
+    const timeline = audioPlayer01.querySelector(".timeline");
+    timeline.addEventListener("click", e => {
+      const timelineWidth = window.getComputedStyle(timeline).width;
+      const timeToSeek = e.offsetX / parseInt(timelineWidth) * audio1.duration;
+      audio1.currentTime = timeToSeek;
+    }, false);
+
+    //click volume slider to change volume
+    const volumeSlider = audioPlayer01.querySelector(".controls .volume-slider");
+    volumeSlider.addEventListener('click', e => {
+      const sliderWidth = window.getComputedStyle(volumeSlider).width;
+      const newVolume = e.offsetX / parseInt(sliderWidth);
+      audio1.volume = newVolume;
+      audioPlayer01.querySelector(".controls .volume-percentage").style.width = newVolume * 100 + '%';
+    }, false)
+
+    //check audio percentage and update time accordingly
+    setInterval(() => {
+      const progressBar = audioPlayer01.querySelector(".progress");
+      progressBar.style.width = audio1.currentTime / audio1.duration * 100 + "%";
+      audioPlayer01.querySelector(".time .current").textContent = getTimeCodeFromNum(
+        audio1.currentTime
+      );
+    }, 500);
+
+    //toggle between playing and pausing on button click
+    const playBtn = audioPlayer01.querySelector(".controls .toggle-play");
+    playBtn.addEventListener(
+      "click",
+      () => {
+        if (audio1.paused) {
+          playBtn.classList.remove("play");
+          playBtn.classList.add("pause");
+          audio1.play();
+        } else {
+          playBtn.classList.remove("pause");
+          playBtn.classList.add("play");
+          audio1.pause();
+        }
+      },
+      false
+    );
+
+    audioPlayer01.querySelector(".volume-button").addEventListener("click", () => {
+      const volumeEl = audioPlayer01.querySelector(".volume-container .volume");
+      audio1.muted = !audio1.muted;
+      if (audio1.muted) {
+        volumeEl.classList.remove("icono-volumeMedium");
+        volumeEl.classList.add("icono-volumeMute");
+      } else {
+        volumeEl.classList.add("icono-volumeMedium");
+        volumeEl.classList.remove("icono-volumeMute");
+      }
+    });
+
+    //turn 128 seconds into 2:08
+    function getTimeCodeFromNum(num) {
+      let seconds = parseInt(num);
+      let minutes = parseInt(seconds / 60);
+      seconds -= minutes * 60;
+      const hours = parseInt(minutes / 60);
+      minutes -= hours * 60;
+
+      if (hours === 0) return `${minutes}:${String(seconds % 60).padStart(2, 0)}`;
+      return `${String(hours).padStart(2, 0)}:${minutes}:${String(
+        seconds % 60
+      ).padStart(2, 0)}`;
+    }
+
+  </script>
+
+  <script>
+    const $button = document.querySelector('.sidebar-toggle');
+    const $wrapper = document.querySelector('#wrapper');
+
+    $button.addEventListener('click', (e) => {
+      e.preventDefault();
+      $wrapper.classList.toggle('toggled');
+    });
+
+    $(document).ready(function () {
+      $('.sidebar-toggle').click(function () {
+        $('.grp-vnt,.user-img-1,.user-bn').toggle()
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

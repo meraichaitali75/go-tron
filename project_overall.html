@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Go Tron | Project</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="assets/css/custom_select.css" rel="stylesheet">
+
+  <style>
+    .play-sub .ply-in {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+    }
+
+    .more-pj-over {
+      height: 380px;
+      overflow: auto;
+    }
+
+    .more-pj-over1 {
+      height: 340px;
+      overflow: auto;
+    }
+
+    .project-wrapper .play-time-box {
+      display: flex;
+    }
+
+    .project-wrapper .play-time-box label {
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="wrapper" class="profile-wrapper">
+    <aside id="sidebar-wrapper">
+      <div class="sidebar-brand">
+        <a href="explore_home.html">
+          <img src="./assets/img/favicon.png">
+          <h2>GoTron</h2>
+        </a>
+        <a href="javascript:;" id="close-icn"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+      <div class="user-block">
+        <a href="javascript:;"><img src="./assets/img/icons/puser.svg" class="user-img-1"></a>
+        <a href="profile.html" class="user-bn">
+          <img src="./assets/img/icons/puser.svg" class="user-img">
+          <div class="ml-2">
+            <h4>Jeffrey</h4>
+            <p class="mb-0">CFO</p>
+          </div>
+        </a>
+      </div>
+      <ul class="sidebar-nav mt-2">
+        <li>
+          <a href="project_overall.html"><img src="./assets/img/icons/overall.svg"><span>Overall</span></a>
+        </li>
+        <li>
+          <a href="project_temp.html"><img src="./assets/img/icons/project.svg"><span>Projects</span></a>
+        </li>
+        <li>
+          <a href="upload.html"><img src="./assets/img/icons/upload.svg"><span>Upload</span></a>
+        </li>
+        <!-- <li>
+          <a href="javascript:;"><img src="./assets/img/icons/room.svg"><span>Practice Room</span></a>
+        </li> -->
+        <li>
+          <a href="user_notification.html"><img src="./assets/img/icons/notification.svg"><span>Notifications</span></a>
+        </li>
+        <li>
+          <a href="explore_home.html"><img src="./assets/img/icons/explore.svg"><span>Explore</span></a>
+        </li>
+        <li class="brdr-top">
+          <span class="grp-vnt">GROUPS</span>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/lyrics.svg"><span>Lyrics</span></a>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/lyrics.svg"><span>Music</span></a>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/explore.svg"><span>Add Group</span></a>
+        </li>
+      </ul>
+    </aside>
+    <div id="navbar-wrapper" class="common_search_dd">
+      <div class="sub-nav-box">
+        <nav class="navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header d-flex align-items-center">
+              <a href="#" class="navbar-brand sidebar-toggle"><img src="./assets/img/icons/menu-tg.svg" width="20"></a>
+              <a href="javascript:;" class="logo mr-auto d-md-block d-lg-none"><img src="assets/img/logo.png" alt=""
+                  class="img-fluid" width="120"></a>
+            </div>
+          </div>
+        </nav>
+        <div class="explore_banner_row row">
+          <div class="input-group w-100">
+            <input type="text" class="form-control exp-hm-inp" placeholder="Search" aria-label="Search Songs">
+            <img src="./assets/img/icons/search.png" class="search_icon" alt="search icon">
+            <div class="input-group-append">
+              <div class="custom-select-wrapper" id="select_search1">
+                <div class="custom-select d-flex position-absolute" id="custom-select1">
+                  <div class="custom-select__trigger">
+                    <span id="dd_value1">Songs</span>
+                    <img src="./assets/img/icons/down_arrow.png" class="down_arrow" alt="Down Arrow">
+                  </div>
+                  <div class="custom-options">
+                    <span class="custom-option dropdown-value" data-value="Musics">Musics</span>
+                    <span class="custom-option dropdown-value" data-value="Songs">Songs</span>
+                    <span class="custom-option dropdown-value" data-value="Lyrics">Lyrics</span>
+                    <span class="custom-option dropdown-value" data-value="Users">Users</span>
+                    <span class="custom-option dropdown-value" data-value="Project">Project</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="upload-box">
+        <ul class="p-0 d-flex m-0">
+          <li><a href="upload.html"><img src="./assets/img/icons/upload.svg"></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle not-drop-tg" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>5</span>
+            </a>
+            <div class="dropdown-menu drop-not-mn" aria-labelledby="navbarDropdownMenuLink">
+              <h3>Notifications</h3>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins1.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins2.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="profile-main project-wrapper">
+      <div class="profile-block mb-5">
+        <div class="pro-max">
+          <div class="sub-pf">
+            <h3>Overall</h3>
+            <p>11 pieces</p>
+          </div>
+          <div class="sub-pf">
+            <h3>Open</h3>
+            <p>3 creations 5 inspirations</p>
+          </div>
+          <div class="row more-pj-over1 sub-msg-box">
+            <div class="col-md-6 mb-4">
+              <a href="project_temp.html" class="play-time-box">
+                <img src="./assets/img/icons/banner1.jpg" width="100%" class="banenr-img-1">
+                <div class="d-flex align-items-center justify-content-between open-ft-bl">
+                  <h2>於是長大了以後</h2>
+                  <ul class="p-0">
+                    <li><img src="./assets/img/icons/ins1.svg"></li>
+                    <li><img src="./assets/img/icons/ins2.svg"></li>
+                    <li><img src="./assets/img/icons/ins3.svg"></li>
+                  </ul>
+                </div>
+                <div class="play-sub">
+                  <img src="./assets/img/icons/pro-play.svg" width="80" class="ply-in">
+                  <label>21 days <img src="./assets/img/icons/time.svg"></label>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12 mb-4">
+                  <a href="project_temp.html" class="position-relative d-block">
+                    <img src="./assets/img/icons/banner2.svg" width="100%" class="banenr-img">
+                    <div class="play-right">
+                      <h3>簡單愛</h3>
+                      <div>
+                        <img src="./assets/img/icons/pro-play.svg" width="60">
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-6 mb-4">
+                  <a href="project_temp.html" class="position-relative d-block">
+                    <img src="./assets/img/icons/banner4.svg" width="100%" class="banenr-img">
+                    <div class="play-right">
+                      <h3>妳太善良</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-6 mb-2">
+                  <a href="project_temp.html" class="position-relative d-block">
+                    <img src="./assets/img/icons/banner5.svg" width="100%" class="banenr-img">
+                    <div class="play-right">
+                      <h3>1874</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-8 col-md-12 more-pj-over sub-msg-box">
+              <div class="sub-pf">
+                <h3>Projects in Progress</h3>
+                <p>3 projects</p>
+              </div>
+              <div class="row project-prgr-box">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0 d-flex align-items-center">
+                  <img src="./assets/img/icons/prg1.svg" class="prg-img">
+                  <div class="ml-5 jsoasm">
+                    <h6>你瞞我瞞</h6>
+                    <p class="mb-0">發起者: Jason Chan</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0 align-self-center">
+                  <div class="d-flex w-100 align-items-center justify-content-end">
+                    <div class="progress">
+                      <div class="bar"></div>
+                    </div>
+                    <p class="counter m-0">45%</p>
+                    <a href="javascript:;" onclick="start()"><img src="./assets/img/icons/blue-play.svg" width="60"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row project-prgr-box">
+                <div class="col-lg-6  col-md-6 p-0 d-flex align-items-center">
+                  <img src="./assets/img/icons/prg2.svg" class="prg-img">
+                  <div class="ml-5 jsoasm">
+                    <h6>好人</h6>
+                    <p>發起者: Jason Chan</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 p-0 align-self-center">
+                  <div class="d-flex w-100 align-items-center justify-content-end">
+                    <div class="progress">
+                      <div class="bar"></div>
+                    </div>
+                    <p class="counter m-0">45%</p>
+                    <a href="javascript:;" onclick="start1()"><img src="./assets/img/icons/blue-play.svg"
+                        width="60"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row project-prgr-box">
+                <div class="col-lg-6  col-md-6 p-0 d-flex align-items-center">
+                  <img src="./assets/img/icons/prg2.svg" class="prg-img">
+                  <div class="ml-5 jsoasm">
+                    <h6>好人</h6>
+                    <p>發起者: Jason Chan</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 p-0 align-self-center">
+                  <div class="d-flex w-100 align-items-center justify-content-end">
+                    <div class="progress">
+                      <div class="bar"></div>
+                    </div>
+                    <p class="counter m-0">45%</p>
+                    <a href="javascript:;" onclick="start1()"><img src="./assets/img/icons/blue-play.svg"
+                        width="60"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="sub-pf">
+                <h3>Projects in Progress</h3>
+                <p>3 projects</p>
+              </div>
+              <a href="project_interactive.html" class="achivement-box d-block">
+                <div class="widget">
+                  <div class="progress-container">
+                    <div class="progress-bar" id="loyalty">
+                      <div class="points">Finished</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="medal-box">
+                  <img src="./assets/img/icons/medal.svg">
+                  <div class="ml-3">
+                    <h4>完成 5 首歌曲</h4>
+                    <p>與其他創作者一起共同完成製作 5 首歌曲</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer-go">
+        <div class="container">
+          <p>© Copyrights GoTron 2019</p>
+          <ul class="p-0">
+            <li><a href="javascript:;"><img src="./assets/img/icons/twitter.svg"></a></li>
+            <li><a href="javascript:;"><img src="./assets/img/icons/facebook-f.svg"></a></li>
+            <li><a href="javascript:;"><img src="./assets/img/icons/linkedin.svg"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <div id="app-cover">
+    <div id="player">
+      <div id="player-track">
+        <div id="track-time">
+          <div id="current-time">00:00</div>
+          <div id="track-length">00:00</div>
+        </div>
+        <div id="s-area">
+          <div id="ins-time"></div>
+          <div id="s-hover"></div>
+          <div id="seek-bar" style="width: 0px;"></div>
+        </div>
+      </div>
+      <div id="player-content">
+        <div id="album-art">
+          <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active"
+            id="_1">
+          <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+          <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+          <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+          <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+          <div id="buffer-box"></div>
+        </div>
+        <div id="album-name">Dawn</div>
+        <div id="player-controls">
+          <div class="add-play">
+            <div class="add-block text-right w-100">
+              <a href="javascript:;"><i class="fas fa-plus mr-2"></i></a>
+              <a href="javascript:;"><i class="fas fa-compress-alt"></i></a>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="control">
+              <div class="button" id="play-previous">
+                <i class="fas fa-backward"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-pause-button">
+                <i class="fas fa-play-circle"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-next">
+                <i class="fas fa-forward"></i>
+              </div>
+            </div>
+          </div>
+          <div class="voice-block">
+            <a href="javascript:;"><i class="fas fa-volume-down mr-1"></i></a>
+            <span></span>
+            <a href="javascript:;"><i class="fas fa-volume-up ml-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/font.js"></script>
+  <script src="assets/js/player.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('#select_search1').click(function () {
+        $("#custom-select1").toggleClass("open");
+      });
+      $("#custom-select1 .dropdown-value").on("click", function () {
+        var dataId = $(this).attr("data-value");
+        document.getElementById("dd_value1").innerHTML = dataId;
+      });
+    });
+
+    $(document).ready(function () {
+      $('#logout-tab').hide();
+      $('#setting-tab').click(function () {
+        $('#logout-tab').show();
+      });
+      $('#Exhibits-tab,#Basic').click(function () {
+        $('#logout-tab').hide();
+      });
+    });
+
+    $(document).ready(function () {
+      $('#close-icn').click(function () {
+        $('#sidebar-wrapper').hide();
+      });
+    });
+
+    $(document).ready(function () {
+      $('.sidebar-toggle').click(function () {
+        $('#sidebar-wrapper').show();
+      });
+
+    });
+  </script>
+
+  <script>
+    const $button = document.querySelector('.sidebar-toggle');
+    const $wrapper = document.querySelector('#wrapper');
+
+    $button.addEventListener('click', (e) => {
+      e.preventDefault();
+      $wrapper.classList.toggle('toggled');
+    });
+
+    $(document).ready(function () {
+      $('.sidebar-toggle').click(function () {
+        $('.grp-vnt,.user-img-1,.user-bn').toggle()
+      });
+    });
+  </script>
+
+
+  <script>
+    var points = 50;
+    var maxPoints = 100;
+    var percent = points / maxPoints * 100;
+    var ratio = percent / 100;
+    var pie = d3.layout
+      .pie()
+      .value(function (d) {
+        return d;
+      })
+      .sort(null);
+    var w = 150,
+      h = 150;
+    var outerRadius = w / 2 - 10;
+    var innerRadius = 75;
+    var color = ["#ececec", "rgba(156,78,176,1)", "#888888"];
+    var colorOld = "#F00";
+    var colorNew = "#0F0";
+    var arc = d3.svg
+      .arc()
+      .innerRadius(innerRadius)
+      .outerRadius(outerRadius)
+      .startAngle(0)
+      .endAngle(Math.PI);
+
+    var arcLine = d3.svg
+      .arc()
+      .innerRadius(innerRadius)
+      .outerRadius(outerRadius)
+      .startAngle(0);
+
+    var svg = d3
+      .select("#loyalty")
+      .append("svg")
+      .attr({
+        width: w,
+        height: h,
+        class: "shadow"
+      })
+      .append("g")
+      .attr({
+        transform: "translate(" + w / 2 + "," + h / 2 + ")"
+      });
+
+    var path = svg
+      .append("path")
+      .attr({
+        d: arc,
+        transform: "rotate(-90)"
+      })
+      .style({
+        fill: color[0]
+      });
+
+    var pathForeground = svg
+      .append("path")
+      .datum({ endAngle: 0 })
+      .attr({
+        d: arcLine,
+        transform: "rotate(-90)"
+      })
+      .style({
+        fill: function (d, i) {
+          return color[1];
+        }
+      });
+
+    var middleCount = svg
+      .append("text")
+      .datum(0)
+      .text(function (d) {
+        return d;
+      })
+      .attr({
+        class: "middleText",
+        "text-anchor": "middle",
+        dy: 0,
+        dx: 5
+      })
+      .style({
+        fill: d3.rgb("#000000"),
+        "font-size": "36px"
+      });
+
+    var oldValue = 0;
+    var arcTween = function (transition, newValue, oldValue) {
+
+      transition.attrTween("d", function (d) {
+        var interpolate = d3.interpolate(d.endAngle, Math.PI * (newValue / 100));
+        var interpolateCount = d3.interpolate(oldValue, newValue);
+
+        return function (t) {
+          d.endAngle = interpolate(t);
+          // change percentage to points before rendering text
+          middleCount.text(Math.floor(interpolateCount(t) / 100 * maxPoints));
+
+          return arcLine(d);
+        };
+      });
+    };
+
+    pathForeground
+      .transition()
+      .duration(750)
+      .ease("cubic")
+      .call(arcTween, percent, oldValue, points);
+
+  </script>
+
+  <script>
+    const bar = document.querySelector('.bar');
+    let width = 1;
+    const success = document.querySelector('.success')
+    const counter = document.querySelector('.counter')
+
+    function start() {
+      setInterval(() => {
+        if (width >= 100) {
+          success.innerHTML = 'Dowload completed!'
+          clearInterval()
+        } else {
+          width++;
+          bar.style.width = width + '%';
+          counter.innerHTML = width + '%';
+        }
+      }, 60)
+    }
+  </script>
+</body>
+
+</html>

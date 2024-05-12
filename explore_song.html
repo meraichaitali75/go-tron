@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Go Tron | Explore| Songs</title>
+
+  <!-- Vendor CSS Files -->
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="assets/vendor/css/swiper.min.css" rel="stylesheet">
+  <link href="assets/css/custom_select.css" rel="stylesheet">
+
+</head>
+
+
+
+<body class="body_explore">
+
+  <header id="header" class="sticky-top header-transparent">
+    <div class="container">
+      <div class="justify-content-center">
+        <div class="d-flex align-items-center">
+          <li class="navbar w-auto bg-white d-sm-block d-md-block d-lg-none">
+            <button class="toggler">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </button>
+          </li>
+          <a href="index.html" class="logo mr-auto"><img src="assets/img/gotron-logo.png" alt="" class="img-fluid"></a>
+          <nav class="nav-menu d-none d-lg-block">
+            <ul class="nav justify-content-end">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown active ex-drop-col" href="#">
+                  Explore
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="explore_home.html">Explore Home</a>
+                  <a class="dropdown-item" href="explore_musics.html">Explore Ideas</a>
+                  <a class="dropdown-item" href="explore_song.html">Explore Songs</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <li class="nav-item" style="list-style: none;">
+            <a class="nav-link now-btn" href="login.html">CREATE NOW</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <!-- mobile navbar -->
+
+  <!--nav-->
+
+  <nav class="navbar p-0" id="mobile-nav">
+
+    <!--toggler-->
+
+    <div class="nav-list-container">
+
+      <ul class="nav-list container">
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            Explore
+
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+            <a class="dropdown-item" href="explore_home.html">Explore Ideas</a>
+
+            <a class="dropdown-item" href="explore_song.html">Explore Songs</a>
+
+          </div>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="about.html">About</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="faq.html">FAQ</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <!-- end navbar -->
+
+
+
+  <!-- explore-music start -->
+
+  <main class="explore-songs-wrapper" id="e-music">
+
+    <div class="profile-wrapper">
+
+      <div class="header-filter-box container-fluid">
+
+        <div id="navbar-wrapper" class="pb-2">
+
+          <div class="sub-nav-box explore_home_wrapper">
+
+            <div class="explore_banner_row row">
+              <div class="input-group w-100">
+                <input type="text" class="form-control exp-hm-inp" placeholder="Search" aria-label="Search Songs">
+                <img src="./assets/img/icons/search.png" class="search_icon" alt="search icon">
+                <div class="input-group-append">
+                  <div class="custom-select-wrapper">
+                    <div class="custom-select d-flex position-absolute">
+                      <div class="custom-select__trigger">
+                        <span id="dd_value">Songs</span>
+                        <img src="./assets/img/icons/down_arrow.png" class="down_arrow" alt="Down Arrow">
+                      </div>
+                      <div class="custom-options">
+                        <span class="custom-option dropdown-value" data-value="Musics">Musics</span>
+                        <span class="custom-option dropdown-value" data-value="Songs">Songs</span>
+                        <span class="custom-option dropdown-value" data-value="Lyrics">Lyrics</span>
+                        <span class="custom-option dropdown-value" data-value="Users">Users</span>
+                        <span class="custom-option dropdown-value" data-value="Project">Project</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="upload-box">
+
+            <ul class="p-0 d-flex">
+
+              <li><a href="upload.html"><img src="./assets/img/icons/upload.svg"></a></li>
+
+              <li class="dropdown mr-0">
+                <a class="dropdown-toggle not-drop-tg" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span>5</span>
+                </a>
+                <div class="dropdown-menu drop-not-mn drop-notd-dj" aria-labelledby="navbarDropdownMenuLink"
+                  id="explore-drop-pf">
+                  <h3>Notifications</h3>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins1.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins2.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins3.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins3.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins3.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="music-blog container-fluid">
+
+        <div class="expl-name">
+
+          <h4 id="music-lbl">EXPLORE SONGS</h4>
+
+        </div>
+
+        <div class="music-btn">
+
+          <ul class="list-inline m-0" id="music-pop">
+
+            <li class="list-inline-item">
+
+              <h3>Genre</h3>
+
+            </li>
+
+            <li class="list-inline-item m-btn active"><a href="">All</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">POP</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">ROCK</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">JAZZ</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">HIP-HOP / RAP</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">METAL</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">ELECTRONIC</a></li>
+
+            <li class="list-inline-item plus-icon"><a href="">+</a></li>
+
+          </ul>
+
+          <ul class="list-inline" id="music-soul">
+
+            <li class="list-inline-item">
+
+              <h3>Theme</h3>
+
+            </li>
+
+            <li class="list-inline-item m-all active"><a href=""><span>All</span></a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Love</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Kids</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">JAZZ</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Dreams</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Family</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">School</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Friendship</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Broke-up</a></li>
+
+            <li class="list-inline-item m-btn"><a href="">Holidays</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="music-space">
+
+          <nav class="navbar navbar-expand-sm">
+
+            <ul class="tabs navbar-nav">
+
+              <li class="tab-link nav-item current" data-tab="tab-1">All</li>
+
+              <li class="tab-link nav-item" data-tab="tab-2">This Week</li>
+
+              <li class="tab-link nav-item" data-tab="tab-3">This Month</li>
+
+              <li class="tab-link nav-item" data-tab="tab-4">This Year</li>
+
+            </ul>
+
+          </nav>
+
+        </div>
+
+        <div class="song-list-table" id="all">
+
+          <div class="song-lyrics active">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd tab -->
+
+        <div class="song-list-table" id="This-week">
+
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3rd tab -->
+
+        <div class="song-list-table" id="This-onth">
+
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 4th tab -->
+
+        <div class="song-list-table" id="This-year">
+
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="song-lyrics ">
+            <div class="d-block">
+              <div class="row" id="ex-music">
+                <div class="col-md-3">
+                  <div class="d-flex list-img">
+                    <a href="javascript:;" class="position-relative main-pl-block">
+                      <img src="assets/img/gotron-img/e-song.png" class="avtar" alt="hitch-avatar">
+                      <img src="assets/img/play-icns.svg" alt="play" class="play-btn-exhm">
+                    </a>
+                    <div class="card-right-block">
+                      <a href="explore_creation_details_songs.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+                      <p>Nicole & 2 creators - Album</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-3 song-pop">
+                  <p>Pop</p>
+                </div>
+                <div class="col-2 col-md-3 song-all">
+                  <p>03:14</p>
+                </div>
+                <div class="col-8 col-md-3 song-img">
+                  <img src="assets/img/gotron-img/+.svg" class="plus-img">
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- pagination start -->
+
+      <div class="pagination">
+
+        <nav aria-label="Page navigation example">
+
+          <ul class="pagination">
+
+            <li class="page-item">
+
+              <a class="page-link" href="#" aria-label="Previous">
+
+                <span aria-hidden="true"><img src="assets/img/gotron-img/arrow-left.svg"></span>
+
+                <span class="sr-only"></span>
+
+              </a>
+
+            </li>
+
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+
+            <li class="page-item">
+
+              <a class="page-link" href="#" aria-label="Next">
+
+                <span aria-hidden="true"><img src="assets/img/gotron-img/arrow-right.svg"></span>
+
+                <span class="sr-only">Next</span>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+
+      <!-- pagination end -->
+
+    </div>
+
+    <div id="app-cover">
+
+      <div id="player">
+
+        <div id="player-track">
+
+          <div id="track-time">
+
+            <div id="current-time"></div>
+
+            <div id="track-length"></div>
+
+          </div>
+
+          <div id="s-area">
+
+            <div id="ins-time"></div>
+
+            <div id="s-hover"></div>
+
+            <div id="seek-bar"></div>
+
+          </div>
+
+        </div>
+
+        <div id="player-content">
+
+          <div id="album-art">
+
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active"
+              id="_1">
+
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+
+            <div id="buffer-box"></div>
+
+          </div>
+
+          <div id="album-name"></div>
+
+          <div id="player-controls">
+
+            <div class="add-play">
+
+              <p>有隻雀仔跌落水</p>
+
+              <div class="add-block">
+
+                <a href="javascript:;"><i class="fas fa-plus mr-2"></i></a>
+
+                <a href="javascript:;"><i class="fas fa-compress-alt"></i></a>
+
+              </div>
+
+            </div>
+
+            <div class="control-group">
+
+              <div class="control">
+
+                <div class="button" id="play-previous">
+
+                  <i class="fas fa-backward"></i>
+
+                </div>
+
+              </div>
+
+              <div class="control">
+
+                <div class="button" id="play-pause-button">
+
+                  <i class="fas fa-play-circle"></i>
+
+                </div>
+
+              </div>
+
+              <div class="control">
+
+                <div class="button" id="play-next">
+
+                  <i class="fas fa-forward"></i>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="voice-block">
+
+              <a href="javascript:;"><i class="fas fa-volume-down mr-1"></i></a>
+
+              <span></span>
+
+              <a href="javascript:;"><i class="fas fa-volume-up ml-1"></i></a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer class="explore_footer">
+
+      <div class="container-fluid">
+
+        <div class="row no-gutters">
+
+          <div class="col-md-9">
+
+            <div class="row no-gutters">
+
+              <div class="col-md-3 footer_blocks">
+
+                <img src="assets/img/logo.png" class="footer_logo" alt="Footer Logo">
+
+                <h6 class="mt-4">Follow us on</h6>
+
+                <div class="social_icons">
+
+                  <a href="#" class="social_icon">
+
+                    <span class="fab fa-twitter"></span>
+
+                  </a>
+
+                  <a href="#" class="social_icon">
+
+                    <span class="fab fa-facebook-f"></span>
+
+                  </a>
+
+                  <a href="#" class="social_icon">
+
+                    <span class="fab fa-linkedin-in"></span>
+
+                  </a>
+
+                </div>
+
+              </div>
+
+              <div class="col-md-3 footer_link_blocks footer_blocks">
+
+                <h6>Information</h6>
+
+                <a href="#">Explore</a>
+
+                <a href="#">About</a>
+
+                <a href="#">FAQ</a>
+
+                <a href="#">Contact Us</a>
+
+              </div>
+
+              <div class="col-md-6 footer_link_blocks footer_blocks">
+
+                <h6>Legal</h6>
+
+                <a href="#">Terms & Conditions</a>
+
+                <a href="#">Cookies Policy</a>
+
+                <a href="#">Privacy Policy</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-3 footer_blocks">
+
+            <h6 class="mb-5">Subscribe newsletter</h6>
+
+            <div class="form-group">
+
+              <input type="text" class="form-control" placeholder="Email">
+
+              <button type="submit" class="submit-icon btn btn-link">
+
+                <span class="fas fa-arrow-right fa-lg"></span>
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="copyright-row">
+
+          <p>© Copyrights GoTron 2019</p>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <!-- ends: footer -->
+
+  </main>
+
+  <!-- ends: explore-music start -->
+
+
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/font.js"></script>
+  <script src="assets/js/player.js"></script>
+  <script src="assets/js/left.menu.js"></script>
+  <script src="assets/vendor/js/swiper.min.js"></script>
+
+  <!-- online link of fontawesome 5 -->
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+
+
+
+  <!-- tab-view js  -->
+
+  <script>
+
+    $(document).ready(function () {
+
+      $('ul.tabs li').click(function () {
+
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+
+        $("#" + tab_id).addClass('current');
+
+        if (tab_id == "tab-1") {
+
+          $("#all").css("display", "block");
+
+          $("#This-week").css("display", "none");
+
+          $("#This-onth").css("display", "none");
+
+          $("#This-year").css("display", "none");
+
+        } else if (tab_id == "tab-2") {
+
+          $("#all").css("display", "none");
+
+          $("#This-week").css("display", "block");
+
+          $("#This-onth").css("display", "none");
+
+          $("#This-year").css("display", "none");
+
+
+
+        } else if (tab_id == "tab-3") {
+
+          $("#all").css("display", "none");
+
+          $("#This-week").css("display", "none");
+
+          $("#This-onth").css("display", "block");
+
+          $("#This-year").css("display", "none");
+
+
+
+        }
+
+        else if (tab_id == "tab-4") {
+
+          $("#all").css("display", "none");
+
+          $("#This-week").css("display", "none");
+
+          $("#This-onth").css("display", "none");
+
+          $("#This-year").css("display", "block");
+
+
+
+        } else {
+
+
+
+        }
+
+      });
+
+    })
+
+
+
+
+  </script>
+
+  <script>
+    document.querySelector('.custom-select-wrapper').addEventListener('click', function () {
+      this.querySelector('.custom-select').classList.toggle('open');
+    });
+    $(".custom-select .dropdown-value").on("click", function () {
+      var dataId = $(this).attr("data-value");
+      document.getElementById("dd_value").innerHTML = dataId;
+    });
+  </script>
+
+
+</body>
+
+
+
+</html>

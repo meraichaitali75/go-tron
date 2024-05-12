@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Go Tron | Explore| Musics</title>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="assets/css/custom_select.css" rel="stylesheet">
+
+</head>
+
+<body class="body_explore">
+  <header id="header" class="sticky-top header-transparent">
+    <div class="container">
+      <div class="justify-content-center">
+        <div class="d-flex align-items-center">
+          <li class="navbar w-auto bg-white d-sm-block d-md-block d-lg-none">
+            <button class="toggler">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </button>
+          </li>
+          <a href="index.html" class="logo mr-auto"><img src="assets/img/gotron-logo.png" alt="" class="img-fluid"></a>
+          <nav class="nav-menu d-none d-lg-block">
+            <ul class="nav justify-content-end">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown active ex-drop-col" href="#">
+                  Explore
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="explore_home.html">Explore Home</a>
+                  <a class="dropdown-item" href="explore_musics.html">Explore Ideas</a>
+                  <a class="dropdown-item" href="explore_song.html">Explore Songs</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <li class="nav-item" style="list-style: none;">
+            <a class="nav-link now-btn" href="login.html">CREATE NOW</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- mobile navbar -->
+  <!--nav-->
+  <nav class="navbar p-0" id="mobile-nav">
+    <!--toggler-->
+    <div class="nav-list-container">
+      <ul class="nav-list container">
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Explore
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="explore_home.html">Explore Ideas</a>
+            <a class="dropdown-item" href="explore_song.html">Explore Songs</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- explore-music start -->
+  <main class="explore-songs-wrapper explore_home_wrapper explore-music" id="e-music">
+    <div class="profile-wrapper">
+      <div class="header-filter-box container-fluid">
+        <div id="navbar-wrapper" class="pb-2">
+
+          <div class="sub-nav-box explore_home_wrapper">
+
+            <div class="explore_banner_row row">
+              <div class="input-group w-100">
+                <input type="text" class="form-control exp-hm-inp" placeholder="Search" aria-label="Search Songs">
+                <img src="./assets/img/icons/search.png" class="search_icon" alt="search icon">
+                <div class="input-group-append">
+                  <div class="custom-select-wrapper">
+                    <div class="custom-select d-flex position-absolute">
+                      <div class="custom-select__trigger">
+                        <span id="dd_value">Songs</span>
+                        <img src="./assets/img/icons/down_arrow.png" class="down_arrow" alt="Down Arrow">
+                      </div>
+                      <div class="custom-options">
+                        <span class="custom-option dropdown-value" data-value="Musics">Musics</span>
+                        <span class="custom-option dropdown-value" data-value="Songs">Songs</span>
+                        <span class="custom-option dropdown-value" data-value="Lyrics">Lyrics</span>
+                        <span class="custom-option dropdown-value" data-value="Users">Users</span>
+                        <span class="custom-option dropdown-value" data-value="Project">Project</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="upload-box">
+
+            <ul class="p-0 d-flex">
+
+              <li><a href="upload.html"><img src="./assets/img/icons/upload.svg"></a></li>
+
+              <li class="dropdown mr-0">
+                <a class="dropdown-toggle not-drop-tg" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span>5</span>
+                </a>
+                <div class="dropdown-menu drop-not-mn drop-notd-dj" aria-labelledby="navbarDropdownMenuLink"
+                  id="explore-drop-pf">
+                  <h3>Notifications</h3>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins1.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins2.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins3.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins3.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                  <div class="not-box">
+                    <img src="./assets/img/icons/ins3.svg">
+                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                    <div class="view-box d-flex align-items-center">
+                      <p class="m-0">2 hrs ago</p>
+                      <a href="user_notification.html">View</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="music-blog container-fluid">
+        <div class="expl-name">
+          <h4 id="music-lbl">EXPLORE MUSICS</h4>
+          <h4 id="lyrics-lbl">EXPLORE LYRICS</h4>
+          <h4 id="all-lbl">EXPLORE ALL</h4>
+        </div>
+        <div class="music-btn">
+          <ul class="list-inline m-0" id="music-pop">
+            <li class="list-inline-item">
+              <h3>Genre</h3>
+            </li>
+            <li class="list-inline-item m-btn active"><a href="#">All</a></li>
+            <li class="list-inline-item m-btn"><a href="#">POP</a></li>
+            <li class="list-inline-item m-btn"><a href="#">ROCK</a></li>
+            <li class="list-inline-item m-btn"><a href="#">JAZZ</a></li>
+            <li class="list-inline-item m-btn"><a href="#">HIP-HOP / RAP</a></li>
+            <li class="list-inline-item m-btn"><a href="#">METAL</a></li>
+            <li class="list-inline-item m-btn"><a href="#">ELECTRONIC</a></li>
+            <li class="list-inline-item"><a href="#">+</a></li>
+          </ul>
+          <ul class="list-inline" id="music-soul">
+            <li class="list-inline-item">
+              <h3>Theme</h3>
+            </li>
+            <li class="list-inline-item m-all active"><a href="#"><span>All</span></a></li>
+            <li class="list-inline-item m-btn"><a href="#">Love</a></li>
+            <li class="list-inline-item m-btn"><a href="#">Kids</a></li>
+            <li class="list-inline-item m-btn"><a href="#">JAZZ</a></li>
+            <li class="list-inline-item m-btn"><a href="#">Dreams</a></li>
+            <li class="list-inline-item m-btn"><a href="#">Family</a></li>
+            <li class="list-inline-item m-btn"><a href="#">School</a></li>
+            <li class="list-inline-item m-btn"><a href="#">Friendship</a></li>
+            <li class="list-inline-item m-btn"><a href="#">Broke-up</a></li>
+            <li class="list-inline-item m-btn"><a href="#">Holidays</a></li>
+          </ul>
+        </div>
+
+        <div class="music-space">
+
+          <nav class="navbar navbar-expand-sm">
+
+            <ul class="tabs navbar-nav">
+
+              <li class="tab-link nav-item current" data-tab="tab-1">Music</li>
+
+              <li class="tab-link nav-item" data-tab="tab-2">Lyrics</li>
+
+              <li class="tab-link nav-item" data-tab="tab-3">All</li>
+
+            </ul>
+
+          </nav>
+
+          <div class="dropdown show" style="z-index: 0;">
+
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+              ALL<i class="fa fa-chevron-down"></i>
+
+            </a>
+
+
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+              <a class="dropdown-item song-popup join" href="#">Join Me</a>
+
+              <a class="dropdown-item join" href="#">In Progress</a>
+
+              <a class="dropdown-item" href="#">Published</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="joinnow-music">
+
+          <div class="row" id="ex-music">
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row active">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <div class="m-blogs d-flex justify-content-center">
+
+                      <img src="assets/img/gotron-img/music-1.png">
+
+                    </div>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_music.html"><img src="assets/img/gotron-img/song.svg"></a>
+
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_music.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <h5>Description:</h5>
+
+                      <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3 join-block">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Join me</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block1 mr-2">
+                    <img src="assets/img/Like.svg" class="like-img">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block1">
+                    <img src="assets/img/Share.svg" class="share-img">
+                  </a>
+
+                </div>
+
+
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_music.html"><img src="assets/img/gotron-img/song.svg"></a>
+
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_music.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <h5>Description:</h5>
+
+                      <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Join me</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_music.html"><img src="assets/img/gotron-img/song.svg"></a>
+
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_music.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <h5>Description:</h5>
+
+                      <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>In Progress</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_music.html"><img src="assets/img/gotron-img/song.svg"></a>
+
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_music.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <h5>Description:</h5>
+
+                      <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Published</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="join-lyrics">
+
+          <div class="row mt-4 mb-4" id="ex-music">
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_lyrics.html"><img src="assets/img/gotron-img/ios-paper.svg"></a>
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_lyrics.html">
+                        <h6>孫悟空</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公<br>於是長大了以後 你發現吳剛嫦娥 都不住在月球<br>於是長大了以後 你發現王子公主
+
+                        居然也有在陪酒<br>於是長大了以後 你發現課本裡面教的學的 都只能 <br>當參考用...</p>
+
+                      <!-- <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公 於是長大了以後 你發現吳剛嫦娥 都不住在月球 於是長大了以後 你發現王子公主 居然也有在陪酒 於是長大了以後 你發現課本裡面教的學的 都只能 當參考用...</p> -->
+
+                      <!-- <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p> -->
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Join me</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_lyrics.html"><img src="assets/img/gotron-img/ios-paper.svg"></a>
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_lyrics.html">
+                        <h6>孫悟空</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公<br>於是長大了以後 你發現吳剛嫦娥 都不住在月球<br>於是長大了以後 你發現王子公主
+
+                        居然也有在陪酒<br>於是長大了以後 你發現課本裡面教的學的 都只能 <br>當參考用...</p>
+
+                      <!-- <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公 於是長大了以後 你發現吳剛嫦娥 都不住在月球 於是長大了以後 你發現王子公主 居然也有在陪酒 於是長大了以後 你發現課本裡面教的學的 都只能 當參考用...</p> -->
+
+                      <!-- <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p> -->
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Join me</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row mt-4 mb-4" id="ex-music">
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_lyrics.html"><img src="assets/img/gotron-img/ios-paper.svg"></a>
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_lyrics.html">
+                        <h6>孫悟空</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公<br>於是長大了以後 你發現吳剛嫦娥 都不住在月球<br>於是長大了以後 你發現王子公主
+
+                        居然也有在陪酒<br>於是長大了以後 你發現課本裡面教的學的 都只能 <br>當參考用...</p>
+
+                      <!-- <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公 於是長大了以後 你發現吳剛嫦娥 都不住在月球 於是長大了以後 你發現王子公主 居然也有在陪酒 於是長大了以後 你發現課本裡面教的學的 都只能 當參考用...</p> -->
+
+                      <!-- <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p> -->
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>In Progress</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_lyrics.html"><img src="assets/img/gotron-img/ios-paper.svg"></a>
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_lyrics.html">
+                        <h6>孫悟空</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公<br>於是長大了以後 你發現吳剛嫦娥 都不住在月球<br>於是長大了以後 你發現王子公主
+
+                        居然也有在陪酒<br>於是長大了以後 你發現課本裡面教的學的 都只能 <br>當參考用...</p>
+
+                      <!-- <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公 於是長大了以後 你發現吳剛嫦娥 都不住在月球 於是長大了以後 你發現王子公主 居然也有在陪酒 於是長大了以後 你發現課本裡面教的學的 都只能 當參考用...</p> -->
+
+                      <!-- <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p> -->
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Published</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="all-lyrics">
+
+          <div class="row" id="ex-music">
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row active">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <div class="m-blogs d-flex justify-content-center">
+
+                      <img src="assets/img/gotron-img/music-1.png">
+
+                    </div>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_music.html"><img src="assets/img/gotron-img/song.svg"></a>
+
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_music.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <h5>Description:</h5>
+
+                      <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3 join-block">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Join me</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block1 mr-2">
+                    <img src="assets/img/Like.svg" class="like-img">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block1">
+                    <img src="assets/img/Share.svg" class="share-img">
+                  </a>
+
+                </div>
+
+
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_music.html"><img src="assets/img/gotron-img/song.svg"></a>
+
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_music.html">
+                        <h6>有隻雀仔跌落水</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <h5>Description:</h5>
+
+                      <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Join me</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_lyrics.html"><img src="assets/img/gotron-img/ios-paper.svg"></a>
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_lyrics.html">
+                        <h6>孫悟空</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公<br>於是長大了以後 你發現吳剛嫦娥 都不住在月球<br>於是長大了以後 你發現王子公主
+
+                        居然也有在陪酒<br>於是長大了以後 你發現課本裡面教的學的 都只能 <br>當參考用...</p>
+
+                      <!-- <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公 於是長大了以後 你發現吳剛嫦娥 都不住在月球 於是長大了以後 你發現王子公主 居然也有在陪酒 於是長大了以後 你發現課本裡面教的學的 都只能 當參考用...</p> -->
+
+                      <!-- <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p> -->
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>In Progress</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6" id="music-all-lyrics">
+
+              <div class="transaction-row">
+
+                <div class="row">
+
+                  <div class="col-md-3">
+
+                    <a href="javascript:;" class="m-blogs d-flex justify-content-center ms-mn-blh">
+                      <img src="assets/img/gotron-img/music-2.png">
+                      <img src="assets/img/play-icns.svg" class="ex-ms-ply">
+                    </a>
+
+                    <div class="m-song">
+
+                      <a href="explore_creation_details_lyrics.html"><img src="assets/img/gotron-img/ios-paper.svg"></a>
+                      <p>Andrew</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="m-name">
+
+                      <a href="explore_creation_details_lyrics.html">
+                        <h6>孫悟空</h6>
+                      </a>
+
+                      <div class="pop-btn">
+
+                        <a href="#" class="pop">pop</a>
+
+                      </div>
+
+                      <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公<br>於是長大了以後 你發現吳剛嫦娥 都不住在月球<br>於是長大了以後 你發現王子公主
+
+                        居然也有在陪酒<br>於是長大了以後 你發現課本裡面教的學的 都只能 <br>當參考用...</p>
+
+                      <!-- <p class="join-name">於是長大了以後 你發現聖誕節 沒有聖誕老公公 於是長大了以後 你發現吳剛嫦娥 都不住在月球 於是長大了以後 你發現王子公主 居然也有在陪酒 於是長大了以後 你發現課本裡面教的學的 都只能 當參考用...</p> -->
+
+                      <!-- <p>Lorem ipsum dolor sit ssssssamet, consetetur sadipscing elitr, sed diam</p> -->
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <div class="join">
+
+                      <a href="#">
+
+                        <p>Published</p>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="like-btn song-img d-flex align-items-center">
+                  <a href="javascript:;" class="like-pl-block mr-2">
+                    <img src="assets/img/gotron-img/Like.svg" class="like-img">
+                    <img src="assets/img/Like.svg" class="like-img like-ft">
+                  </a>
+                  <a href="javascript:;" class="like-pl-block">
+                    <img src="assets/img/gotron-img/Share.svg" class="share-img">
+                    <img src="assets/img/Share.svg" class="share-img like-ft">
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- pagination start -->
+      <div class="pagination">
+
+        <nav aria-label="Page navigation example">
+
+          <ul class="pagination">
+
+            <li class="page-item">
+
+              <a class="page-link" href="#" aria-label="Previous">
+
+                <span aria-hidden="true"><img src="assets/img/gotron-img/arrow-left.svg"></span>
+
+                <span class="sr-only"></span>
+
+              </a>
+
+            </li>
+
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+
+            <li class="page-item">
+
+              <a class="page-link" href="#" aria-label="Next">
+
+                <span aria-hidden="true"><img src="assets/img/gotron-img/arrow-right.svg"></span>
+
+                <span class="sr-only">Next</span>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+      <!-- pagination end -->
+    </div>
+    <div id="app-cover">
+      <div id="player">
+        <div id="player-track">
+          <div id="track-time">
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <div id="s-area">
+            <div id="ins-time"></div>
+            <div id="s-hover"></div>
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+        <div id="player-content">
+          <div id="album-art">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active"
+              id="_1">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+            <div id="buffer-box"></div>
+          </div>
+          <div id="album-name"></div>
+          <div id="player-controls">
+            <div class="add-play">
+              <div class="add-block text-right w-100">
+                <a href="javascript:;"><i class="fas fa-plus mr-2"></i></a>
+                <a href="javascript:;"><i class="fas fa-compress-alt"></i></a>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="control">
+                <div class="button" id="play-previous">
+                  <i class="fas fa-backward"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="button" id="play-pause-button">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="button" id="play-next">
+                  <i class="fas fa-forward"></i>
+                </div>
+              </div>
+            </div>
+            <div class="voice-block">
+              <a href="javascript:;"><i class="fas fa-volume-down mr-1"></i></a>
+              <span></span>
+              <a href="javascript:;"><i class="fas fa-volume-up ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="explore_footer">
+
+      <div class="container-fluid">
+
+        <div class="row no-gutters">
+
+          <div class="col-md-9">
+
+            <div class="row no-gutters">
+
+              <div class="col-md-3 footer_blocks">
+
+                <img src="assets/img/logo.png" class="footer_logo" alt="Footer Logo">
+
+                <h6 class="mt-4">Follow us on</h6>
+
+                <div class="social_icons">
+
+                  <a href="#" class="social_icon">
+
+                    <span class="fab fa-twitter"></span>
+
+                  </a>
+
+                  <a href="#" class="social_icon">
+
+                    <span class="fab fa-facebook-f"></span>
+
+                  </a>
+
+                  <a href="#" class="social_icon">
+
+                    <span class="fab fa-linkedin-in"></span>
+
+                  </a>
+
+                </div>
+
+              </div>
+
+              <div class="col-md-3 footer_link_blocks footer_blocks">
+
+                <h6>Information</h6>
+
+                <a href="#">Explore</a>
+
+                <a href="#">About</a>
+
+                <a href="#">FAQ</a>
+
+                <a href="#">Contact Us</a>
+
+              </div>
+
+              <div class="col-md-6 footer_link_blocks footer_blocks">
+
+                <h6>Legal</h6>
+
+                <a href="#">Terms & Conditions</a>
+
+                <a href="#">Cookies Policy</a>
+
+                <a href="#">Privacy Policy</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-3 footer_blocks">
+
+            <h6 class="mb-5">Subscribe newsletter</h6>
+
+            <div class="form-group">
+
+              <input type="text" class="form-control" placeholder="Email">
+
+              <button type="submit" class="submit-icon btn btn-link">
+
+                <span class="fas fa-arrow-right fa-lg"></span>
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="copyright-row">
+
+          <p>© Copyrights GoTron 2019</p>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- ends: footer -->
+  </main>
+  <!-- explore-music end -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/font.js"></script>
+  <script src="assets/js/player.js"></script>
+  <script src="assets/js/left.menu.js"></script>
+
+  <!-- online link of fontawesome 5 -->
+
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+
+  <!-- tab-view js  -->
+  <script>
+    document.querySelector('.custom-select-wrapper').addEventListener('click', function () {
+      this.querySelector('.custom-select').classList.toggle('open');
+    });
+    $(".custom-select .dropdown-value").on("click", function () {
+      var dataId = $(this).attr("data-value");
+      document.getElementById("dd_value").innerHTML = dataId;
+    });
+  </script>
+  <script>
+
+    $(document).ready(function () {
+
+      $("#music-lbl").show();
+
+      $("#lyrics-lbl").hide();
+
+      $("#all-lbl").hide();
+
+      $('ul.tabs li').click(function () {
+
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+
+        $("#" + tab_id).addClass('current');
+
+        if (tab_id == "tab-1") {
+
+          $("#music-lbl").show();
+
+          $("#lyrics-lbl").hide();
+
+          $("#all-lbl").hide();
+
+          $("#music-pop").show();
+
+          $("#music-kids").show();
+
+          $("#music-soul").show();
+
+          $(".joinnow-music").css("display", "block");
+
+          $(".join-lyrics").css("display", "none");
+
+          $(".all-lyrics").css("display", "none");
+
+        } else if (tab_id == "tab-2") {
+
+          $("#music-lbl").hide();
+
+          $("#lyrics-lbl").show();
+
+          $("#all-lbl").hide();
+
+          $("#music-pop").show();
+
+          $("#music-kids").hide();
+
+          $("#music-soul").show();
+
+          $(".joinnow-music").css("display", "none");
+
+          $(".join-lyrics").css("display", "block");
+
+          $(".all-lyrics").css("display", "none");
+
+
+
+        } else if (tab_id == "tab-3") {
+
+          $("#music-lbl").hide();
+
+          $("#lyrics-lbl").hide();
+
+          $("#all-lbl").show();
+
+          $("#music-pop").show();
+
+          $("#music-kids").hide();
+
+          $("#music-soul").show();
+
+          $(".joinnow-music").css("display", "none");
+
+          $(".join-lyrics").css("display", "none");
+
+          $(".all-lyrics").css("display", "block");
+
+
+
+        } else {
+
+
+
+        }
+
+      });
+
+    })
+
+  </script>
+
+  <!-- heart button js -->
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-1").click(function () {
+
+        if ($("#heart-1").hasClass("liked")) {
+
+          $("#heart-1").html('<i class="far fa-heart"></i>');
+
+          $("#heart-1").removeClass("liked");
+
+        } else {
+
+          $("#heart-1").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-1").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+    $(document).ready(function () {
+
+      $("#share_icon").click(function () {
+
+        if ($("#share_icon").hasClass("shared")) {
+
+          $("#share_icon").html('<img src="assets/img/gotron-img/Share.svg">');
+
+          $("#share_icon").removeClass("shared");
+
+        } else {
+
+          $("#share_icon").html('<img src="assets/img/icons/share_filled.png">');
+
+          $("#share_icon").addClass("shared");
+
+        }
+
+      });
+
+    });
+
+  </script>
+  <!-- heart button js -->
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-2").click(function () {
+
+        if ($("#heart-2").hasClass("liked")) {
+
+          $("#heart-2").html('<i class="far fa-heart"></i>');
+
+          $("#heart-2").removeClass("liked");
+
+        } else {
+
+          $("#heart-2").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-2").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-3").click(function () {
+
+        if ($("#heart-3").hasClass("liked")) {
+
+          $("#heart-3").html('<i class="far fa-heart"></i>');
+
+          $("#heart-3").removeClass("liked");
+
+        } else {
+
+          $("#heart-3").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-3").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-4").click(function () {
+
+        if ($("#heart-4").hasClass("liked")) {
+
+          $("#heart-4").html('<i class="far fa-heart"></i>');
+
+          $("#heart-4").removeClass("liked");
+
+        } else {
+
+          $("#heart-4").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-4").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-5").click(function () {
+
+        if ($("#heart-5").hasClass("liked")) {
+
+          $("#heart-5").html('<i class="far fa-heart"></i>');
+
+          $("#heart-5").removeClass("liked");
+
+        } else {
+
+          $("#heart-5").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-5").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-6").click(function () {
+
+        if ($("#heart-6").hasClass("liked")) {
+
+          $("#heart-6").html('<i class="far fa-heart"></i>');
+
+          $("#heart-6").removeClass("liked");
+
+        } else {
+
+          $("#heart-6").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-6").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-7").click(function () {
+
+        if ($("#heart-7").hasClass("liked")) {
+
+          $("#heart-7").html('<i class="far fa-heart"></i>');
+
+          $("#heart-7").removeClass("liked");
+
+        } else {
+
+          $("#heart-7").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-7").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-8").click(function () {
+
+        if ($("#heart-8").hasClass("liked")) {
+
+          $("#heart-8").html('<i class="far fa-heart"></i>');
+
+          $("#heart-8").removeClass("liked");
+
+        } else {
+
+          $("#heart-8").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-8").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-9").click(function () {
+
+        if ($("#heart-9").hasClass("liked")) {
+
+          $("#heart-9").html('<i class="far fa-heart"></i>');
+
+          $("#heart-9").removeClass("liked");
+
+        } else {
+
+          $("#heart-9").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-9").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-10").click(function () {
+
+        if ($("#heart-10").hasClass("liked")) {
+
+          $("#heart-10").html('<i class="far fa-heart"></i>');
+
+          $("#heart-10").removeClass("liked");
+
+        } else {
+
+          $("#heart-10").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-10").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-11").click(function () {
+
+        if ($("#heart-11").hasClass("liked")) {
+
+          $("#heart-11").html('<i class="far fa-heart"></i>');
+
+          $("#heart-11").removeClass("liked");
+
+        } else {
+
+          $("#heart-11").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-11").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $("#heart-12").click(function () {
+
+        if ($("#heart-12").hasClass("liked")) {
+
+          $("#heart-12").html('<i class="far fa-heart"></i>');
+
+          $("#heart-12").removeClass("liked");
+
+        } else {
+
+          $("#heart-12").html('<i class="fas fa-heart"></i>');
+
+          $("#heart-12").addClass("liked");
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+
+
+</html>

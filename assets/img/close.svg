@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.226" height="39.226" viewBox="0 0 39.226 39.226">
+  <defs>
+    <filter id="Path_1728" x="6.903" y="6.899" width="25.257" height="25.257" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1729" x="0" y="0" width="39.226" height="39.226" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(6 6)">
+    <g transform="matrix(1, 0, 0, 1, -6, -6)" filter="url(#Path_1728)">
+      <path id="Path_1728-2" data-name="Path 1728" d="M19.4,18.374l-2.387-2.385L19.4,13.6a.724.724,0,1,0-1.023-1.023l-2.387,2.385L13.606,12.58A.724.724,0,1,0,12.582,13.6l2.387,2.385-2.387,2.385a.7.7,0,0,0,0,1.023.719.719,0,0,0,1.023,0l2.387-2.385L18.379,19.4a.727.727,0,0,0,1.023,0A.718.718,0,0,0,19.4,18.374Z" transform="translate(0.54 0.54)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -6, -6)" filter="url(#Path_1729)">
+      <path id="Path_1729-2" data-name="Path 1729" d="M13.988,4.8a9.181,9.181,0,1,1-6.5,2.689,9.124,9.124,0,0,1,6.5-2.689m0-1.429A10.613,10.613,0,1,0,24.6,13.988,10.611,10.611,0,0,0,13.988,3.375Z" transform="translate(2.63 2.63)"/>
+    </g>
+  </g>
+</svg>

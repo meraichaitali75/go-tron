@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Go Tron | Explore| Songs</title>
+
+    <!-- Vendor CSS Files -->
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/vendor/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/custom_select.css" rel="stylesheet">
+
+</head>
+
+<body class="body_explore">
+    <header id="header" class="sticky-top header-transparent">
+        <div class="container">
+            <div class="justify-content-center">
+                <div class="d-flex align-items-center">
+                    <li class="navbar w-auto bg-white d-sm-block d-md-block d-lg-none">
+                        <button class="toggler">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </button>
+                    </li>
+                    <a href="index.html" class="logo mr-auto"><img src="assets/img/gotron-logo.png" alt=""
+                            class="img-fluid"></a>
+                    <nav class="nav-menu d-none d-lg-block">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown active ex-drop-col" href="#">
+                                    Explore
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="explore_home.html">Explore Home</a>
+                                    <a class="dropdown-item" href="explore_musics.html">Explore Ideas</a>
+                                    <a class="dropdown-item" href="explore_song.html">Explore Songs</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <li class="nav-item" style="list-style: none;">
+                        <a class="nav-link now-btn" href="login.html">CREATE NOW</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- mobile navbar -->
+    <!--nav-->
+    <nav class="navbar p-0" id="mobile-nav">
+        <!--toggler-->
+        <div class="nav-list-container">
+            <ul class="nav-list container">
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Explore
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="explore_home.html">Explore Ideas</a>
+                        <a class="dropdown-item" href="explore_song.html">Explore Songs</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- explore-creation-details-songs-start -->
+    <main class="profile-wrapper pop-songes-wrapper">
+        <div class="container-fluid header-filter-box">
+
+            <div id="navbar-wrapper" class="pb-2">
+
+                <div class="sub-nav-box explore_home_wrapper">
+
+                    <div class="explore_banner_row row">
+                        <div class="input-group w-100">
+                            <input type="text" class="form-control exp-hm-inp" placeholder="Search"
+                                aria-label="Search Songs">
+                            <img src="./assets/img/icons/search.png" class="search_icon" alt="search icon">
+                            <div class="input-group-append">
+                                <div class="custom-select-wrapper">
+                                    <div class="custom-select d-flex position-absolute">
+                                        <div class="custom-select__trigger">
+                                            <span id="dd_value">Songs</span>
+                                            <img src="./assets/img/icons/down_arrow.png" class="down_arrow"
+                                                alt="Down Arrow">
+                                        </div>
+                                        <div class="custom-options">
+                                            <span class="custom-option dropdown-value" data-value="Musics">Musics</span>
+                                            <span class="custom-option dropdown-value" data-value="Songs">Songs</span>
+                                            <span class="custom-option dropdown-value" data-value="Lyrics">Lyrics</span>
+                                            <span class="custom-option dropdown-value" data-value="Users">Users</span>
+                                            <span class="custom-option dropdown-value"
+                                                data-value="Project">Project</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="upload-box">
+
+                    <ul class="p-0 d-flex">
+
+                        <li><a href="upload.html"><img src="./assets/img/icons/upload.svg"></a></li>
+
+                        <li class="dropdown mr-0">
+                            <a class="dropdown-toggle not-drop-tg" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>5</span>
+                            </a>
+                            <div class="dropdown-menu drop-not-mn drop-notd-dj" aria-labelledby="navbarDropdownMenuLink"
+                                id="explore-drop-pf">
+                                <h3>Notifications</h3>
+                                <div class="not-box">
+                                    <img src="./assets/img/icons/ins1.svg">
+                                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                                    <div class="view-box d-flex align-items-center">
+                                        <p class="m-0">2 hrs ago</p>
+                                        <a href="user_notification.html">View</a>
+                                    </div>
+                                </div>
+                                <div class="not-box">
+                                    <img src="./assets/img/icons/ins2.svg">
+                                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                                    <div class="view-box d-flex align-items-center">
+                                        <p class="m-0">2 hrs ago</p>
+                                        <a href="user_notification.html">View</a>
+                                    </div>
+                                </div>
+                                <div class="not-box">
+                                    <img src="./assets/img/icons/ins3.svg">
+                                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                                    <div class="view-box d-flex align-items-center">
+                                        <p class="m-0">2 hrs ago</p>
+                                        <a href="user_notification.html">View</a>
+                                    </div>
+                                </div>
+                                <div class="not-box">
+                                    <img src="./assets/img/icons/ins3.svg">
+                                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                                    <div class="view-box d-flex align-items-center">
+                                        <p class="m-0">2 hrs ago</p>
+                                        <a href="user_notification.html">View</a>
+                                    </div>
+                                </div>
+                                <div class="not-box">
+                                    <img src="./assets/img/icons/ins3.svg">
+                                    <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                                    <div class="view-box d-flex align-items-center">
+                                        <p class="m-0">2 hrs ago</p>
+                                        <a href="user_notification.html">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="explore-songs-wrapper pb-4">
+
+                <div class="music-blog">
+
+                    <div class="music-btn p-0 pl-5">
+
+                        <ul class="list-inline m-0 pl-0 m-all" id="music-kids">
+
+                            <!-- <li class="list-inline-item"><h3>Genre</h3></li> -->
+
+                            <li class="list-inline-item m-btn"><a href="#">#POP</a></li>
+
+                            <li class="list-inline-item m-btn"><a href="#">#HIP-HOP</a></li>
+
+                            <li class="list-inline-item m-btn"><a href="#">#JAZZ</a></li>
+
+                            <li class="list-inline-item m-btn"><a href="#">#CLASSICAL</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="back-arrow pl-5 pl-md-4 pl-xl-0 py-3">
+                <a href="explore_song.html"><img src="assets/img/creation_lyrics/right arrow.png" alt=""
+                        class="img-fluid mr-2">Back</a>
+            </div>
+
+        </div>
+        <section class="songes-birds-blog">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="d-flex w-100 justify-content-between">
+
+                            <div class="birds-containt-blog">
+
+                                <a href="#">有隻雀仔跌落水</a>
+
+                            </div>
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="user-system-blog">
+
+                                    <a href="#"><img src="assets/img/creation_lyrics/user-logo.png" alt=""
+                                            class="img-fluid user-img-blog"></a>
+
+                                </div>
+
+                                <div class="user-system-blog-containt">
+
+                                    <a href="#"><img src="assets/img/creation_lyrics/frustrated-user.png" alt=""
+                                            class="img-fluid user-img-blog"></a>
+
+                                </div>
+
+                                <div class="user-system-blog-img">
+
+                                    <a href="#"><img src="assets/img/creation_lyrics/maxresdefault.png" alt=""
+                                            class="img-fluid user-img-blog"></a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="publish-blog w-100 py-4 d-flex flex-column">
+
+                            <a href="#" class="pop-up-blog">#Pop</a>
+
+                            <a href="#" class="date-blog">Publish Date: 21.09.19</a>
+
+                            <div class="d-flex align-items-center heart-blog">
+
+                                <nav class="navbar navbar-expand-lg">
+
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                                        <ul class="navbar-nav">
+
+                                            <li class="nav-item">
+
+                                                <a class="nav-link pl-0"><img
+                                                        src="assets/img/icons/Icon awesome-heart.png" alt=""
+                                                        class="img-fluid user-img-blog-containt"></a>
+
+                                            </li>
+
+                                            <li class="nav-item">
+
+                                                <a class="nav-link rupess-blog">1,500</a>
+
+                                            </li>
+
+                                            <li class="nav-item">
+
+                                                <a class="nav-link"><img src="assets/img/icons/Polygon 8.png" alt=""
+                                                        class="img-fluid user-img-blog-containt"></a>
+
+                                            </li>
+
+                                            <li class="nav-item">
+
+                                                <a class="nav-link rupess-blog">3,200</a>
+
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </nav>
+
+                            </div>
+
+                        </div>
+
+                        <div class="share-blog-containt w-100 ">
+
+                            <div class="d-flex align-items-center">
+                                <div class="border-blog">
+
+                                    <a href="#"><img src="assets/img/icons/Icon awesome-plus(3).png" alt=""
+                                            class="img-fluid"></a>
+
+                                </div>
+                                <div class="border-blog">
+
+                                    <a href="#"><img src="assets/img/icons/Icon awesome-heart1 (1).png" alt=""
+                                            class="img-fluid"></a>
+
+                                </div>
+                                <div class="border-blog">
+
+                                    <a href="#"><img src="assets/img/icons/Icon awesome-share (2).png" alt=""
+                                            class="img-fluid"></a>
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- <div class="vidio-blog">
+
+                            <img src="assets/img/vidio.png" alt="" class="img-fluid">
+
+                        </div> -->
+
+                        <a id="play-video" class="video-play-button" href="#">
+
+                            <span></span>
+
+                        </a>
+
+                        <div id="video-overlay" class="video-overlay">
+
+                            <a class="video-overlay-close">&times;</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="explore_home_wrapper explore-lyrics-wrapper explore-details-songes-wrapper">
+        <div class="explore_lyrics_common_block">
+            <section class="explore-creation-songes-blog">
+
+                <div class="container-fluid">
+
+                    <div class="row py-4">
+
+                        <div class="col-lg-6 pt-3">
+
+                            <div class="scrollbar" id="style-3">
+
+                                <div class="music-composer-blog">
+
+                                    <div class="music-user-blog">
+
+                                        <div class="d-flex align-items-center">
+
+                                            <a href="#"><img src="assets/img/creation_lyrics/user-logo.png" alt=""
+                                                    class="img-fluid"></a>
+
+                                            <div class="music-composer-containt">
+
+                                                <h6>Nicole</h6>
+
+                                                <p>Music Composer</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <a href="#" class="follow-blog">+Follow</a>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="music-composer-blog-songes">
+
+                                    <div class="music-user-blog">
+
+                                        <div class="d-flex align-items-center">
+
+                                            <a href="#"><img src="assets/img/creation_lyrics/fru_user.png" alt=""
+                                                    class="img-fluid"></a>
+
+                                            <div class="music-composer-containt">
+
+                                                <h6>Jeffrey</h6>
+
+                                                <p>Lyricist Composer</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <a href="#" class="follow-blog">+Follow</a>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="music-composer-blog">
+
+                                    <div class="music-user-blog">
+
+                                        <div class="d-flex align-items-center">
+
+                                            <a href="#"><img src="assets/img/creation_lyrics/user-logo.png" alt=""
+                                                    class="img-fluid"></a>
+
+                                            <div class="music-composer-containt">
+
+                                                <h6>Nicole</h6>
+
+                                                <p>Music Composer</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <a href="#" class="follow-blog">+Follow</a>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="music-composer-blog-songes">
+
+                                    <div class="music-user-blog">
+
+                                        <div class="d-flex align-items-center">
+
+                                            <a href="#"><img src="assets/img/creation_lyrics/fru_user.png" alt=""
+                                                    class="img-fluid"></a>
+
+                                            <div class="music-composer-containt">
+
+                                                <h6>Jeffrey</h6>
+
+                                                <p>Lyricist Composer</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <a href="#" class="follow-blog">+Follow</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <label class="details-blog">
+
+                                <h6>Details:</h6>
+
+                                <p>你長大了以後，想要做什麼呢？」小時候我們喜歡編織夢想，現在我們學會了認知現實，微笑和眼淚，絕對是成長之 旅，最真實的紀念品。
+
+                                    於是長大了以後，我們都和現實做了朋友，卻也更懂得，珍惜單純天真的自己。<br>Written by: Jeffrey, Nicole</p>
+
+                            </label>
+
+                            <div class="inspired-blog">
+
+                                <a href="upload.html">I'm Inspired!</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="border-blog"></div>
+
+                </div>
+
+            </section>
+
+            <section class="inspired-by-songes-blog">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="Original-tree-blog">
+                                <h6>Inspired By</h6>
+                                <a href="#">Tree</a>
+                            </div>
+                            <!-- music slider -->
+                            <div class="swiper-container music_sliders inspired_left_slider">
+                                <div class="swiper-wrapper">
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                            <!-- ends: music slider -->
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="Original-tree-blog pl-4">
+                                <h6>Inspired</h6>
+                                <a href="#">Tree</a>
+                            </div>
+
+                            <!-- inspired_right_slider slider -->
+                            <div class="swiper-container music_sliders inspired_right_slider">
+                                <div class="swiper-wrapper">
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                            <!-- ends: inspired_right_slider slider -->
+                        </div>
+                    </div>
+                    <div class="border-blog"></div>
+                </div>
+
+            </section>
+
+            <section class="comment-songes-like-blog">
+
+                <div class="container-fluid">
+
+                    <div class="row pb-5">
+
+                        <div class="col-md-12">
+
+                            <h6 class="mb-3">Comment</h6>
+
+                            <a href="login.html" class="imporve-blog">
+
+                                <h6>Our passionate musician wants your comment to improve!</h6>
+
+                                <h6>Login!!!</h6>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="border-blog"></div>
+
+                </div>
+
+            </section>
+
+            <section class="music-songes-like py-3">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <h6>Songs You May Like</h6>
+
+                            <div class="d-none align-items-center w-100 responsive-music">
+
+                                <a href="#" class="feather-music-blog pl-3">
+
+                                    <img src="assets/img/creation_lyrics/explore 5 (1).png" alt=""
+                                        class="img-fluid inspire-music-blog">
+
+                                    <div class="d-flex align-items-center justify-content-center pt-3">
+
+                                        <span>愛拼才會贏</span>
+
+                                    </div>
+
+                                    <!-- <div class="inspire-name-blog">
+
+                                    <p class="text-center">Jeffrey</p>
+
+                                </div> -->
+
+                                </a>
+
+                                <a href="#" class="feather-music-blog feather-blog">
+
+                                    <img src="assets/img/creation_lyrics/explore 5 (3).png" alt=""
+                                        class="img-fluid inspire-music-blog">
+
+                                    <div class="d-flex align-items-center justify-content-center pt-3">
+
+                                        <span>有隻雀仔跌落</span>
+
+                                    </div>
+
+                                    <!-- <div class="inspire-name-blog">
+
+                                    <p class="text-center">Jeffrey</p>
+
+                                </div> -->
+
+                                </a>
+
+                                <a href="#" class="feather-music-blog feather-blog">
+
+                                    <img src="assets/img/creation_lyrics/explore 5 (2).png" alt=""
+                                        class="img-fluid inspire-music-blog">
+
+                                    <div class="d-flex align-items-center justify-content-center pt-3">
+
+                                        <span>於是長大了以後</span>
+
+                                    </div>
+
+                                    <!-- <div class="inspire-name-blog">
+
+                                    <p class="text-center">Jeffrey</p>
+
+                                </div> -->
+
+                                </a>
+
+                                <a href="#" class="feather-music-blog feather-blog">
+
+                                    <img src="assets/img/creation_lyrics/explore 5 (4).png" alt=""
+                                        class="img-fluid inspire-music-blog">
+
+                                    <div class="d-flex align-items-center justify-content-center pt-3">
+
+                                        <span>於是長大了以後</span>
+
+                                    </div>
+
+                                    <!-- <div class="inspire-name-blog">
+
+                                    <p class="text-center">Jeffrey</p>
+
+                                </div> -->
+
+                                </a>
+
+                            </div>
+                            <!-- music slider -->
+                            <div class="swiper-container music_sliders songs_slider">
+                                <div class="swiper-wrapper">
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by1.png" class="music-img"
+                                                alt="slide 1">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon feather-music.png" alt="Music Icon1"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="swiper-slide inspired_music_slide">
+                                        <div class="music_img_layer position-relative">
+                                            <img src="assets/img/creation_lyrics/inspire by2.png" class="music-img"
+                                                alt="slide 2">
+                                            <div class="dot"></div>
+                                            <img src="./assets/img/play-icns.svg" class="ex-hm-ppdl">
+                                        </div>
+                                        <div class="inspired_body_content">
+                                            <div class="inspired_block">
+                                                <img src="assets/img/icons/Icon ionic-ios-paper.png" alt="Music Icon3"
+                                                    class="music-icons">
+                                                <span>於是長大了以後</span>
+                                            </div>
+                                            <p class="text-center">Jeffrey</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                            <!-- ends: music slider -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+        <div id="app-cover">
+            <div id="player">
+                <div id="player-track">
+                    <div id="track-time">
+                        <div id="current-time"></div>
+                        <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                        <div id="ins-time"></div>
+                        <div id="s-hover"></div>
+                        <div id="seek-bar"></div>
+                    </div>
+                </div>
+                <div id="player-content">
+                    <div id="album-art">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+                            class="active" id="_1">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg"
+                            id="_2">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg"
+                            id="_3">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg"
+                            id="_4">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg"
+                            id="_5">
+                        <div id="buffer-box"></div>
+                    </div>
+                    <div id="album-name"></div>
+                    <div id="player-controls">
+                        <div class="add-play">
+                            <div class="add-block w-100 text-right">
+                                <a href="javascript:;"><i class="fas fa-plus mr-2"></i></a>
+                                <a href="javascript:;"><i class="fas fa-compress-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="control">
+                                <div class="button" id="play-previous">
+                                    <i class="fas fa-backward"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="button" id="play-pause-button">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="button" id="play-next">
+                                    <i class="fas fa-forward"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="voice-block">
+                            <a href="javascript:;"><i class="fas fa-volume-down mr-1"></i></a>
+                            <span></span>
+                            <a href="javascript:;"><i class="fas fa-volume-up ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="explore_footer">
+
+            <div class="container-fluid">
+
+                <div class="row no-gutters">
+
+                    <div class="col-md-9">
+
+                        <div class="row no-gutters">
+
+                            <div class="col-md-3 footer_blocks">
+
+                                <img src="assets/img/logo.png" class="footer_logo" alt="Footer Logo">
+
+                                <h6 class="mt-4">Follow us on</h6>
+
+                                <div class="social_icons">
+
+                                    <a href="#" class="social_icon">
+
+                                        <span class="fab fa-twitter"></span>
+
+                                    </a>
+
+                                    <a href="#" class="social_icon">
+
+                                        <span class="fab fa-facebook-f"></span>
+
+                                    </a>
+
+                                    <a href="#" class="social_icon">
+
+                                        <span class="fab fa-linkedin-in"></span>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 footer_link_blocks footer_blocks">
+
+                                <h6>Information</h6>
+
+                                <a href="#">Explore</a>
+
+                                <a href="#">About</a>
+
+                                <a href="#">FAQ</a>
+
+                                <a href="#">Contact Us</a>
+
+                            </div>
+
+                            <div class="col-md-6 footer_link_blocks footer_blocks">
+
+                                <h6>Legal</h6>
+
+                                <a href="#">Terms & Conditions</a>
+
+                                <a href="#">Cookies Policy</a>
+
+                                <a href="#">Privacy Policy</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 footer_blocks">
+
+                        <h6 class="mb-5">Subscribe newsletter</h6>
+
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" placeholder="Email">
+
+                            <button type="submit" class="submit-icon btn btn-link">
+
+                                <span class="fas fa-arrow-right fa-lg"></span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="copyright-row">
+
+                    <p>© Copyrights GoTron 2019</p>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <!-- ends: footer -->
+    </main>
+    <!-- explore-creation-details-songs-end -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/font.js"></script>
+    <script src="assets/js/player.js"></script>
+    <script src="assets/js/left.menu.js"></script>
+    <script src="assets/vendor/js/swiper.min.js"></script>
+
+    <!-- online link of fontawesome 5 -->
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+
+    <!-- slider js -->
+    <script>
+        document.querySelector('.custom-select-wrapper').addEventListener('click', function () {
+            this.querySelector('.custom-select').classList.toggle('open');
+        });
+        $(".custom-select .dropdown-value").on("click", function () {
+            var dataId = $(this).attr("data-value");
+            document.getElementById("dd_value").innerHTML = dataId;
+        });
+    </script>
+    <script>
+        // inspired_left_slider
+        var swiper = new Swiper('.inspired_left_slider', {
+            // slidesPerView: 3,
+            spaceBetween: 10,
+            freeMode: true,
+            autoplay: true,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Responsive breakpoints   
+            breakpoints: {
+                0: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 3
+                },
+                1100: {
+                    slidesPerView: 4
+                }
+            }
+        });
+        // inspired_right_slider
+        var swiper = new Swiper('.inspired_right_slider', {
+            // slidesPerView: 3,
+            spaceBetween: 10,
+            freeMode: true,
+            loop: false,
+            autoplay: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Responsive breakpoints   
+            breakpoints: {
+                0: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 3
+                },
+                1100: {
+                    slidesPerView: 4
+                }
+            }
+        });
+        // songs_slider
+        var swiper = new Swiper('.songs_slider', {
+            // slidesPerView: 3,
+            spaceBetween: 10,
+            freeMode: true,
+            autoplay: true,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Responsive breakpoints   
+            breakpoints: {
+                0: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 4
+                },
+                1100: {
+                    slidesPerView: 8
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

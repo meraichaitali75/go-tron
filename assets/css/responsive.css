@@ -1,0 +1,1810 @@
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+  #mainsec {
+    height: 85vh;
+  }
+  /* ===========28-10-2020 CSS written by Chaitali Merai============ */
+  /*.explore_lyrics_history .lyrics_blocks {
+    padding: 0 50px;
+  }
+  .explore_lyrics_history .lyrics_blocks2 {
+    padding: 0 120px 0 40px;
+  }
+  .explore_lyrics_history .lyrics_blocks3 {
+    padding: 0 100px 0 50px;
+  }
+  .explore_lyrics_history .lyrics_blocks4 {
+    padding: 0 120px 0 0;
+  }
+  .explore_lyrics_history .music_bottom {
+    margin-right: 100px;
+  }*/
+  /* ===========ends: 28-10-2020 CSS written by Chaitali Merai============ */
+}
+
+@media (max-width: 1366px) {
+  .blue-btn {
+    padding: 7px 15px 10px;
+  }
+  .music_sliders .music-icons {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  }
+  .aboutus-wrapper {
+    z-index: 9;
+  }
+  .music_sliders .music-img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+  }
+  .music_sliders .inspired_body_content span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  /* ===========28-10-2020 CSS written by Chaitali Merai============ */
+  .music_sliders .music-img {
+    width: 120px;
+    height: 120px;
+  }
+  .music_sliders .music-icons {
+    width: 15px;
+    height: 15px;
+  }
+  .music_sliders .inspired_body_content p,
+  .music_sliders .inspired_body_content span {
+    font-size: 13px;
+  }
+  /* ===========CSS written by Chaitali Merai============ */
+  .explore_home_wrapper .explore_banner_row {
+    width: 100%;
+  }
+  .notification_content_wrapper {
+    padding: 30px 30px 0;
+  }
+  .notification_content_wrapper .content-body {
+    padding-right: 20px;
+  }
+  .notification_content_wrapper .notification_cards {
+    padding: 20px;
+  }
+  .notification_content_wrapper .left-content-block h5,
+  .notification_content_wrapper .notification_footer_row h5 {
+    font-size: 0.9rem;
+  }
+  .notification_content_wrapper .left-content-block strong {
+    font-size: 0.8rem;
+  }
+
+  /* ===========ends: CSS written by Chaitali Merai============ */
+
+  /*=========== drashti (contact-us 28-10-2020)===========*/
+  .contact-wrapper .contact-map iframe {
+    width: 350px !important;
+    height: 350px !important;
+  }
+  .contact-wrapper .contact-res {
+    align-items: center;
+  }
+  .contact-wrapper {
+    padding: 60px 0 !important;
+  }
+  /*=========== ends:  drashti===========*/
+
+  /*=========== drashti (faq 28-10-2020)===========*/
+  .need-help .contact-desk {
+    margin-top: 0 !important;
+  }
+  .need-help {
+    height: 600px !important;
+  }
+  .FAQ-heading .faq-name h2 {
+    margin: 30px 0 0 0;
+  }
+  /*=========== ends:  drashti===========*/
+
+  /*=========== Devsmita (index-page 28-10-2020)===========*/
+  #activity div#carouselExampleCaptions {
+    width: 100%;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (about-page 28-10-2020)===========*/
+  .aboutus-wrapper .about-triangle .my-auto {
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+  }
+  .aboutus-wrapper .about-triangle .tringal-img img {
+    width: 100%;
+    margin: 106px 0 0 0;
+  }
+  .about-triangle {
+    background-position: unset;
+    height: unset;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (login-page 28-10-2020)===========*/
+  .login-section .login-main-box {
+    width: 100%;
+  }
+  /* ===========ends: Devsmita============ */
+}
+/* ravi 28-10 */
+@media (min-width: 991px) {
+  #mobile-nav {
+    justify-content: space-around;
+    padding: 0.4rem 0;
+  }
+  .navbar .nav-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .nav-list li {
+    margin: 0 0.4rem;
+  }
+  .navbar .toggler {
+    display: block;
+  }
+}
+/* ravi end */
+@media (max-width: 991px) {
+  /*=========== drashti ===========*/
+  .explore-creation-lyrics-blog .details-containt-blog {
+    margin: 30px 0 0 0;
+    height: unset;
+  }
+  .lyrics-comment .comment-sent-blog {
+    margin: 20px 0 0 0;
+  }
+  .lyrics-inspired-by-blog .music-by {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+  .inspired-by-blog .music-by {
+    width: 100%;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /* ravi 28-10-2020 */
+  #mobile-nav {
+    display: block;
+  }
+  .navbar-brand {
+    position: relative;
+    bottom: 3px;
+  }
+  .profile-wrapper .search-nav .form-control {
+    width: 100%;
+    box-shadow: 0 0px 13px -3px #ccc;
+  }
+  .profile-main .recent-pub .per-col-rc {
+    flex: 0 0 auto;
+    width: 33%;
+  }
+  .select2-container {
+    min-width: 100%;
+  }
+  #close-icn i {
+    color: #fff;
+    font-size: 24px;
+    position: fixed;
+    right: 10px;
+    top: 30px;
+    display: block;
+  }
+  #wrapper.toggled #navbar-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: sticky;
+    box-shadow: 0 0 10px #ccc;
+  }
+  #navbar-wrapper {
+    position: sticky;
+    top: 0;
+    background: #fff;
+  }
+  #header .logo img {
+    margin-left: 20px;
+  }
+  #app-cover {
+    display: none;
+  }
+  .user-bn {
+    display: flex !important;
+  }
+  .nav-list-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+    z-index: 9;
+    transform: translateX(-100%);
+    transition: all 0.5s linear;
+    opacity: 0.5;
+  }
+  .navbar .nav-list {
+    padding: 7rem 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+  }
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+  }
+  #sidebar-wrapper {
+    margin-left: 0;
+    left: 0;
+  }
+  #sidebar-wrapper {
+    display: none;
+    width: 100%;
+  }
+  #wrapper {
+    padding-left: 0;
+  }
+  .drop-not-mn {
+    box-shadow: 0px 0px 5px 0 #00000029;
+  }
+  .upload-block .form-group {
+    margin: 1.5rem 0;
+  }
+  #mobile-nav {
+    display: block;
+  }
+  .profile-main .recent-pub .per-col-rc {
+    flex: 0 0 auto;
+    width: 33%;
+  }
+  .project-intractive-sec .upload-custom button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .project-intractive-sec .upload-custom {
+    display: block;
+  }
+  .project-temp-wrapper .ins-audio-box {
+    position: relative;
+  }
+  #close-icn i {
+    color: #fff;
+    font-size: 24px;
+    position: fixed;
+    right: 12px;
+    top: 10px;
+    display: block;
+  }
+  #wrapper.toggled #navbar-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: sticky;
+  }
+  #navbar-wrapper {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 9;
+  }
+  #header .logo img {
+    margin-left: 20px;
+  }
+  #app-cover {
+    display: none;
+  }
+  .user-bn {
+    display: flex !important;
+  }
+  .profile-wrapper .user-img-1 {
+    display: none !important;
+  }
+  .profile-wrapper .sidebar-nav .grp-vnt {
+    display: block !important;
+  }
+  .nav-list-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+    z-index: 9;
+    transform: translateX(-100%);
+    transition: all 0.5s linear;
+    opacity: 0.5;
+  }
+  .navbar .nav-list {
+    padding: 7rem 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+  }
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+  }
+  #sidebar-wrapper {
+    margin-left: 0;
+    left: 0;
+  }
+  #sidebar-wrapper {
+    display: none;
+    width: 100%;
+  }
+  .profile-wrapper .sidebar-nav {
+    width: 100%;
+  }
+  #wrapper {
+    padding-left: 0;
+  }
+  .profile-main .recent-pub img {
+    width: 100px;
+  }
+  .profile-wrapper .sidebar-brand {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #5f5f5f;
+    z-index: 9;
+  }
+  .profile-wrapper .search-nav .form-control {
+    width: 100%;
+    box-shadow: 0 0px 13px -3px #ccc;
+  }
+  .drop-not-mn {
+    box-shadow: 0px 0px 5px 0 #00000029;
+  }
+  .upload-block .form-group {
+    margin: 1.5rem 0;
+  }
+  .notification_content_wrapper .content-body {
+    overflow: inherit;
+  }
+  html,
+  body.notification_body {
+    overflow: auto !important;
+  }
+  body.notification_body #wrapper {
+    overflow: auto !important;
+  }
+  .notification_content_wrapper .site-footer-go {
+    margin-bottom: 10px;
+  }
+  .notification_content_wrapper .content-body {
+    height: auto;
+  }
+  .project-temp-wrapper .lyr-det-main .detail-box-pl {
+    min-height: auto;
+  }
+
+  /* end : ravi */
+  /*=========== drashti (contact-us 28-10-2020)===========*/
+  .contact-wrapper .contact-blog-res {
+    width: 80%;
+    margin: 0 auto 60px auto;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /*=========== drashti (faq 28-10-2020)===========*/
+  .FAQ-wrapper .img-blog img {
+    left: -325px !important;
+  }
+  .need-help .need-us {
+    padding: 180px 0px 130px 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /*=========== Devsmita (index-page 28-10-2020)===========*/
+  #feature .feature-blog {
+    padding: 20px 5px !important;
+  }
+
+  #activity div#carouselExampleCaptions {
+    width: 100% !important;
+  }
+  #create .create-blog {
+    width: 100% !important;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (about-page 28-10-2020)===========*/
+  .aboutus-wrapper .about-triangle .my-auto {
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+  }
+  .aboutus-wrapper .about-triangle .tringal-img img {
+    width: 100%;
+    margin: 106px 0 0 0;
+  }
+  .about-triangle {
+    background-position: unset;
+    height: unset;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (login-page 28-10-2020)===========*/
+  .login-section .login-main-box {
+    width: 100% !important;
+  }
+  .login-section .login-ft-box {
+    padding: 30px 20px !important;
+  }
+  #mainsec .login-section .login-main-box .social-box img {
+    width: 13px !important;
+    height: 13px !important;
+    object-fit: contain !important;
+    margin: 0 3px 0 5px !important;
+  }
+  .login-section .social-box a {
+    font-size: 7px !important;
+  }
+  #create .blue-btn {
+    width: auto !important;
+  }
+
+  /* ===========ends: Devsmita============ */
+}
+
+@media (max-width: 768px) {
+  /* ===========28-10-2020 CSS written by Chaitali Merai============ */
+  .music_sliders .music-img {
+    width: 150px;
+    height: 150px;
+  }
+  .music_sliders .music-icons {
+    width: 15px;
+    height: 15px;
+  }
+  .music_sliders .inspired_body_content p,
+  .music_sliders .inspired_body_content span {
+    font-size: 13px;
+  }
+  /* ===========ends: 30-10-2020 CSS written by Chaitali Merai============ */
+  /* ===========28-10-2020 CSS written by Chaitali Merai============ */
+  .profile-wrapper .search-box {
+    padding: 10px 15px;
+  }
+  .body_explore .container-fluid {
+    padding: 0 20px;
+  }
+  .body_explore .pop-wrapper .container-fluid.header-filter-box,
+  .body_explore .explor-details-lyrics .container-fluid.header-filter-box,
+  .body_explore .pop-songes-wrapper .container-fluid.header-filter-box,
+  .body_explore .explore-songs-wrapper .container-fluid.header-filter-box {
+    padding: 0;
+  }
+  .explore_home_wrapper .explore_banner_row {
+    width: 100%;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  .explore_lyrics_history .music_bottom a,
+  .explore_feature_box .feature_header a {
+    white-space: nowrap;
+  }
+  .explore_home_wrapper .explore_banner_box {
+    padding: 30px 20px 60px 20px;
+  }
+  .explore_music_history .music_history_card .music_img {
+    height: 70px;
+    width: 70px;
+  }
+  .explore_footer .footer_logo {
+    width: 120px;
+  }
+  .explore_lyrics_history .lyrics_content {
+    width: 100%;
+  }
+  .explore-music .music-blog #ex-music,
+  .explore-music #music-all-lyrics {
+    padding: 0 10px;
+  }
+  .music-space .dropdown-menu {
+    width: 100% !important;
+  }
+
+  /* ===========ends: 29-10-2020 CSS written by Chaitali Merai============ */
+  /* devsmita */
+  .explore-music .music-blog .music-space {
+    margin-right: 0;
+  }
+  /*ends: 29-10-2020 devsmita */
+}
+
+@media (max-width: 767px) {
+  /*mitesh 29/10*/
+  .lyrics_blocks2 {
+    transform: scale(1);
+    transform-origin: center;
+  }
+  .lyrics_blocks3 {
+    transform: scale(1);
+    transform-origin: center;
+  }
+  .lyrics_blocks4 {
+    transform: scale(1);
+    transform-origin: center;
+  }
+  /*end mitesh 29/10*/
+  /* ===========28-10-2020 CSS written by Chaitali Merai============ */
+  .inspired-by-blog .Original-tree-blog {
+    padding: 0;
+  }
+  .explore-creation-songes-blog .scrollbar {
+    height: auto;
+    overflow-y: unset;
+  }
+  .common-sm-main-content {
+    padding-top: 70px;
+  }
+  .forgot-wrapper #rs-box2 h3 {
+    font-size: 18px;
+    min-width: auto;
+    margin-left: 0;
+  }
+  .forgot-wrapper .forgot-main-box {
+    width: 100%;
+  }
+  .forgot-wrapper .rsert-form {
+    width: 100%;
+  }
+  .forgot-wrapper .nav-tabs .nav-link {
+    font-size: 15px;
+  }
+  .forgot-wrapper .reset-box {
+    padding: 0 15px 20px;
+  }
+
+  .forgot-wrapper .reset-box-2 p {
+    font-size: 12px;
+  }
+  .explore_banner_row .form-control {
+    width: 100%;
+    border-radius: 50px !important;
+  }
+  .explore_banner_row .input-group {
+    flex-direction: column;
+  }
+  /* .explore_banner_row .custom-select {
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 45px;
+  } */
+  .explore_home_wrapper .explore_banner_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #explore_banner_slider {
+    margin-top: 50px;
+  }
+  .explore_home_wrapper .explore_banner_row .form-control {
+    font-size: 13px;
+  }
+  .custom-select__trigger {
+    font-size: 15px !important;
+  }
+  .common_tab_nav .nav-link {
+    padding: 0.5rem 0.3rem;
+  }
+  .explore-songs-wrapper .music-blog ul.tabs {
+    display: flex;
+    flex-direction: row;
+  }
+  .explore-songs-wrapper .music-blog .navbar .navbar-nav li:first-child,
+  .explore-songs-wrapper .music-blog .navbar .navbar-nav .nav-item {
+    margin: 7px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .header-filter-box #navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-filter-box #navbar-wrapper .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .header-filter-box #navbar-wrapper .upload-box {
+    margin-right: 10px;
+    width: 100%;
+  }
+  .header-filter-box #navbar-wrapper ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .video-play-button {
+    top: 60%;
+  }
+  .video-play-button span {
+    border-left: 13px solid #fff;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin: 8px 0 0 6px;
+  }
+  .video-play-button:after {
+    width: 30px;
+    height: 30px;
+  }
+  .lyrics-comment h6,
+  .inspired-by-songes-blog h6,
+  .lyrics-inspired-by-blog h6,
+  .comment-songes-like-blog h6 {
+    font-size: 19px;
+    margin-top: 15px;
+    font-weight: 700;
+  }
+  .comment-songes-like-blog .imporve-blog h6 {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  /* ===========ends: 28-10-2020 CSS written by Chaitali Merai============ */
+
+  /* ravi 28-10-2020 */
+  #activity .extra-shape {
+    display: none;
+  }
+  #header .logo img {
+    margin-left: 0px;
+  }
+  #activity .extra-shape {
+    display: none;
+  }
+  .upload-main-res {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+  .upload-block {
+    padding: 2rem 15px;
+  }
+  .tabcus1 .pt-5 {
+    padding-top: 20px !important;
+  }
+  #header .logo img {
+    margin-left: 0px;
+  }
+  .profile-main .nav-tabs .pf-link {
+    padding: 0.5rem 1rem 0.5rem;
+    font-size: 16px;
+  }
+  .profile-main .project-blxoc {
+    margin: 0;
+  }
+  .profile-main .detail-box {
+    margin: 0;
+  }
+  .profile-main .det-sub-box {
+    margin: 30px 0;
+  }
+  .profile-main .Inspired-tree {
+    margin-left: 0;
+  }
+  #feature:before {
+    background: none;
+  }
+  #activity:after {
+    background: none;
+  }
+  #home:after {
+    background: none;
+  }
+  .create-btn {
+    margin-top: 20px;
+  }
+  #home h1 {
+    font-size: 35px;
+  }
+  .about-row-res {
+    flex-direction: column-reverse;
+  }
+  .aboutus-wrapper .about-triangle .about-details {
+    position: inherit;
+    height: auto !important;
+  }
+  .login-section .login-ft-box {
+    border-radius: 20px;
+  }
+  .login-section .social-box a {
+    font-size: 13px !important;
+  }
+  .login-section .login-block button {
+    margin-top: 30px;
+  }
+  .aboutus-wrapper .about-triangle .row {
+    height: auto !important;
+    flex-direction: column-reverse !important;
+  }
+  .shape-cnt {
+    display: none;
+  }
+  /* ravi- end */
+}
+
+@media (max-width: 575px) {
+  /* ===========28-10-2020 CSS written by Chaitali Merai============ */
+  .music_sliders .music-img {
+    width: 100px;
+    height: 100px;
+  }
+  .aboutus-wrapper .contact-our p {
+    margin-right: 0px;
+  }
+  /* ===========ends: 30-10-2020 CSS written by Chaitali Merai============ */
+  /* ===========CSS written by Chaitali Merai============ */
+  .notification_content_wrapper .content-body {
+    padding-right: 0 !important;
+  }
+  .notification_content_wrapper {
+    padding: 15px;
+  }
+  /* ===========ends: CSS written by Chaitali Merai============ */
+
+  /*=========== drashti ===========*/
+  .notification_content_wrapper .content-body {
+    padding-right: 0 !important;
+  }
+  .navbar-header {
+    align-items: end !important;
+  }
+  .site-footer-go {
+    margin: 2rem 15px;
+  }
+  .notification_content_wrapper {
+    padding: 15px;
+  }
+  .explor-details-lyrics .bicycle-blog {
+    padding: 50px 10px;
+  }
+  .explore-creation-lyrics-blog .music-composer-blog .music-user-blog {
+    width: 100%;
+  }
+
+  .explore_lyrics_common_block {
+    padding: 0 10px;
+  }
+  .explore-lyrics-wrapper .responsive-music {
+    flex-direction: column;
+  }
+  .lyrics-songes-like .feather-blog {
+    padding: 0 0 0 0;
+  }
+  .lyrics-comment .lyrics-music-user-blog-containt {
+    width: 100%;
+  }
+  .birds-blog {
+    padding: 50px 10px;
+  }
+  .explore-wrapper section {
+    padding: 0 0;
+  }
+  .inspired-by-blog .responsive-music {
+    flex-direction: column;
+  }
+  .songes-like .responsive-music {
+    flex-direction: column;
+  }
+  .songes-like .feather-blog {
+    padding: 0 0;
+  }
+  .birds-blog .vidio-blog {
+    top: -62px;
+  }
+  .explore-details-songes-wrapper section {
+    padding: 0 10px !important;
+  }
+  .explore-creation-songes-blog .music-composer-blog .music-user-blog {
+    width: 100% !important;
+  }
+  .explore-creation-songes-blog .music-composer-blog-songes .music-user-blog {
+    width: 100% !important;
+  }
+  .explore-creation-songes-blog .scrollbar {
+    width: 100% !important;
+  }
+  .inspired-by-songes-blog .responsive-music {
+    flex-direction: column;
+  }
+  .music-songes-like .responsive-music {
+    flex-direction: column;
+  }
+  .music-songes-like .feather-blog {
+    padding: 0 0 0 0 !important;
+  }
+  .songes-birds-blog {
+    padding: 50px 10px !important;
+  }
+  .songes-birds-blog .birds-containt-blog a {
+    font-size: 17px !important;
+  }
+  .songes-birds-blog .user-system-blog-img {
+    position: absolute;
+    right: 30px !important;
+  }
+  .songes-birds-blog .user-system-blog-containt {
+    position: absolute;
+    right: 79px !important;
+  }
+  .songes-birds-blog .user-system-blog {
+    position: absolute;
+    right: 129px !important;
+  }
+  .inspired-by-songes-blog .feather-blog {
+    padding: 0 10px !important;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /*=========== drashti ===========*/
+  .notification_content_wrapper .content-body {
+    padding-right: 0 !important;
+  }
+  .notification_content_wrapper {
+    padding: 15px;
+  }
+  .explor-details-lyrics .bicycle-blog {
+    padding: 50px 10px;
+  }
+  .explore-creation-lyrics-blog .music-composer-blog .music-user-blog {
+    width: 100%;
+  }
+
+  .explore_lyrics_common_block {
+    padding: 0 10px;
+  }
+  .explore-lyrics-wrapper .responsive-music {
+    flex-direction: column;
+  }
+  .lyrics-songes-like .feather-blog {
+    padding: 0 0 0 0;
+  }
+  .lyrics-comment .lyrics-music-user-blog-containt {
+    width: 100%;
+  }
+  .birds-blog {
+    padding: 50px 10px;
+  }
+  .explore-wrapper section {
+    padding: 0 0;
+  }
+  .inspired-by-blog .responsive-music {
+    flex-direction: column;
+  }
+  .songes-like .responsive-music {
+    flex-direction: column;
+  }
+  .songes-like .feather-blog {
+    padding: 0 0;
+  }
+  .birds-blog .vidio-blog {
+    top: -62px;
+  }
+  .explore-details-songes-wrapper section {
+    padding: 0 10px !important;
+  }
+  .explore-creation-songes-blog .music-composer-blog .music-user-blog {
+    width: 100% !important;
+  }
+  .explore-creation-songes-blog .music-composer-blog-songes .music-user-blog {
+    width: 100% !important;
+  }
+  .explore-creation-songes-blog .scrollbar {
+    width: 100% !important;
+    padding-right: 15px;
+  }
+  .inspired-by-songes-blog .responsive-music {
+    flex-direction: column;
+  }
+  .music-songes-like .responsive-music {
+    flex-direction: column;
+  }
+  .music-songes-like .feather-blog {
+    padding: 0 0 0 0 !important;
+  }
+  .songes-birds-blog {
+    padding: 50px 10px !important;
+  }
+  .songes-birds-blog .birds-containt-blog a {
+    font-size: 17px !important;
+  }
+  .songes-birds-blog .user-system-blog-img {
+    position: absolute;
+    right: 30px !important;
+  }
+  .songes-birds-blog .user-system-blog-containt {
+    position: absolute;
+    right: 79px !important;
+  }
+  .songes-birds-blog .user-system-blog {
+    position: absolute;
+    right: 129px !important;
+  }
+  .inspired-by-songes-blog .feather-blog {
+    padding: 0 10px !important;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /* ravi 28-10-2020 */
+  #header .now-btn {
+    padding: 8px 10px 10px !important;
+    line-height: normal;
+    font-size: 12px !important;
+    min-width: 100px;
+  }
+  .profile-wrapper .sub-nav-box {
+    display: block;
+  }
+  .upload-wrapper .theme-box label {
+    padding: 10px 17px;
+  }
+  .upload-wrapper .theme-box label {
+    display: flex;
+  }
+  .upload-wrapper .theme-box input {
+    width: 100%;
+  }
+  .profile-wrapper .upload-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 0px;
+  }
+  .pop-wrapper.profile-wrapper .upload-box,
+  .explor-details-lyrics.profile-wrapper .upload-box,
+  .pop-songes-wrapper.profile-wrapper .upload-box,
+  .explore-songs-wrapper .profile-wrapper .upload-box {
+    position: unset;
+    margin: 0;
+  }
+  #navbar-wrapper {
+    display: block;
+    padding: 20px 0 10px;
+  }
+  #header .logo {
+    padding: 20px 0;
+  }
+  .navbar-brand {
+    position: relative;
+    bottom: 10px;
+  }
+  .navbar .toggler {
+    width: 80px;
+    margin-top: 6px;
+  }
+  .toggler .line {
+    display: block;
+    width: 25px;
+    height: 3px;
+  }
+  #header .logo img {
+    width: 80%;
+  }
+  #header .now-btn {
+    padding: 8px 10px 10px !important;
+    line-height: normal;
+    font-size: 12px !important;
+    min-width: 100px;
+  }
+  .project-intractive-sec .Initiator-box {
+    width: 33%;
+  }
+  .hotel-img-res {
+    width: 100px;
+  }
+  .project-temp-wrapper .ins-audio-box {
+    position: relative;
+  }
+  .project-temp-wrapper .ins-audio-box .right-box {
+    margin-top: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .project-temp-wrapper .detail-box-pl .inp-text {
+    width: 100%;
+  }
+  .center-respp {
+    top: 15px !important;
+  }
+  .project-temp-wrapper .ins-audio-box {
+    padding: 13px;
+  }
+  .sent-box.position-relative {
+    padding: 10px 0 0;
+  }
+  .project-intractive-sec .sent-box img {
+    top: 60%;
+  }
+  .project-temp-wrapper .lyr-det-main .detail-box-pl h6 {
+    display: flex;
+  }
+  .project-temp-wrapper .lyr-det-main .detail-box-pl {
+    padding: 15px;
+  }
+  .project-temp-wrapper .lyr-det-main .detail-box-pl .sub-det {
+    width: 100%;
+  }
+  .project-temp-wrapper .hotel-main-sc {
+    width: 100%;
+  }
+  .project-temp-wrapper .audio-player .controls {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    position: inherit;
+    bottom: 0;
+    margin-top: 30px;
+  }
+  .project-temp-wrapper .ins-audio-box .adrs-img {
+    width: 55px;
+    margin-left: 10px;
+  }
+  .upload-main-res .upload-form .des-block li {
+    font-size: 14px;
+  }
+  .upload-main-res .upload-form .des-block {
+    padding: 20px 15px 10px;
+  }
+  .upload-main-res .tabcus1 .pt-5 {
+    padding-top: 0 !important;
+  }
+  .project-intractive-sec .file-upload .file-select {
+    width: 100%;
+  }
+  .upload-main-res .blue-btn {
+    margin-top: 20px;
+  }
+  .project-wrapper .project-prgr-box .prg-img {
+    width: 80px;
+    border-radius: 10px;
+    margin: 15px;
+  }
+  .project-wrapper .counter {
+    padding-right: 15px;
+  }
+  .project-wrapper .project-prgr-box {
+    padding-right: 5px;
+  }
+  .jsoasm {
+    margin-left: 0 !important;
+  }
+  .profile-main .project-blxoc {
+    display: block;
+    position: relative;
+  }
+  .insp-col-res {
+    padding: 0;
+  }
+  .profile-main .play-respsp {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 60px;
+  }
+  .project-temp-wrapper .ins-audio-box h3 {
+    font-size: 17px;
+  }
+  .profile-main .pro-view-res {
+    margin-top: 30px;
+  }
+  .profile-main .project-blxoc ul {
+    margin-top: 20px;
+    padding-bottom: 30px !important;
+  }
+  .profile-main .recent-pub .rec-sub {
+    width: 100%;
+  }
+  .profile-main .recent-pub .per-col-rc {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .profile-wrapper .sub-nav-box {
+    display: block;
+  }
+  #navbar-wrapper {
+    display: block;
+    padding: 20px 0 10px;
+  }
+  .navbar .nav-list {
+    padding: 4rem 15px;
+  }
+  #header .logo {
+    padding: 20px 0;
+  }
+  .profile-wrapper .upload-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 0px;
+  }
+  .explor-details-lyrics.profile-wrapper .upload-box,
+  .pop-songes-wrapper.profile-wrapper .upload-box,
+  .explore-songs-wrapper .profile-wrapper .upload-box {
+    position: unset;
+    margin: 0;
+  }
+  .navbar-brand {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .navbar .toggler {
+    width: 80px;
+    margin-top: 6px;
+  }
+  .toggler .line {
+    display: block;
+    width: 25px;
+    height: 3px;
+  }
+  #header .logo img {
+    width: 80%;
+  }
+  .site-footer-go:after {
+    width: 100%;
+  }
+  .profile-main .composer-box-main {
+    display: block;
+  }
+  .foloe-list ul {
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .profile-wrapper .profile-main .foloe-list ul a {
+    margin-left: 0;
+  }
+  .nav-tabs .nav-link {
+    margin-bottom: 0;
+  }
+  .profile-main .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .profile-main .per-col-2 {
+    max-width: 70%;
+    flex: 70%;
+  }
+  .profile-main .descriptipn-box p {
+    font-size: 14px;
+  }
+  .profile-main .per-col-1 {
+    max-width: 30%;
+    flex: 30%;
+  }
+  .profile-main .composer-box-main .cm-sub h3 {
+    font-size: 18px;
+  }
+  .profile-main .composer-box-main .cm-sub p {
+    font-size: 14px;
+  }
+  .profile-main .recent-pub img {
+    width: 100px;
+  }
+  .profile-main .cm-sub img {
+    width: 70px;
+  }
+  .profile-main .composer-box-main .cm-sub-02 {
+    margin-left: 10px;
+  }
+  .profile-main .logout-nav {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    width: 100%;
+  }
+  .dropdown-menu.drop-not-awd.show {
+    left: -5px !important;
+    width: 300px;
+    padding: 10px;
+  }
+  .profile-main .nav-tabs .pf-link {
+    padding: 0.5rem 1rem 0.5rem;
+    font-size: 15px;
+  }
+  .profile-wrapper .custom-select {
+    right: 0;
+    padding: 0;
+    width: 130px;
+    top: -40px;
+    height: 40px;
+}
+  .profile-wrapper .explore_banner_row .input-group {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .profile-wrapper .common_search_dd .search_icon, .explore_home_wrapper .search_icon {
+    position: absolute;
+    left: 25px;
+    top: 14px;
+    width: 16px;
+  }
+  .profile-wrapper .common_search_dd .form-control, .explore_home_wrapper .explore_banner_row .form-control {
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  .profile-main #logout-tab {
+    right: 0;
+  }
+  .profile-main .tab-pane {
+    margin-top: 20px !important;
+  }
+  .profile-main .music-nav {
+    right: 20px !important;
+    top: 130px !important;
+  }
+  .project-wrapper .open-ft-bl {
+    padding: 10px;
+  }
+  .play-sub .mx-3 img {
+    width: 50px;
+  }
+  .notification_content_wrapper .notification_cards {
+    border-radius: 10px;
+  }
+  .notification_content_wrapper .notification_cards {
+    position: relative;
+  }
+  .notification_content_wrapper .notification_cards .btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .project-temp-wrapper .ins-audio-box span {
+    color: #5f5f5f;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 0;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
+  .project-temp-wrapper .ins-audio-box svg {
+    width: 50px;
+    height: 24px;
+    padding: 6px;
+  }
+  .ins-audio-box .ml-4 {
+    margin-left: 10px !important;
+  }
+  .notification_content_wrapper .notification_cards {
+    padding: 12px;
+  }
+  /* ravi end */
+
+  /*=========== drashti (contact-us 28-10-2020)===========*/
+  .contact-wrapper .contact-blog-res {
+    width: 100% !important;
+    margin: 0 auto 60px auto;
+  }
+  .contact-wrapper .contact-desk .border-desk {
+    width: 100% !important;
+  }
+  .contact-wrapper .contact-map iframe {
+    width: 315px !important;
+    height: 315px !important;
+  }
+  .contact-heading .con-wrap {
+    flex-direction: column !important;
+  }
+  .contact-heading .contact-info {
+    display: flex !important;
+    padding: 0 0 0 50px !important;
+    width: 100% !important;
+    margin: 0 0 0 0 !important;
+  }
+  .contact-heading {
+    overflow: hidden !important;
+    padding: 30px 0 40px 0 !important;
+  }
+  .contact-heading .contact-more {
+    margin: 10px 0 0 0 !important;
+  }
+  .contact-heading .con-wrap .contact-name {
+    margin: 0 0 20px 0 !important;
+  }
+  .contact-wrapper .round img {
+    position: absolute !important;
+    right: -248px !important;
+    width: 371px !important;
+    bottom: -217px !important;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /*=========== drashti (faq 28-10-2020)===========*/
+  .need-help .contact-desk .border-desk {
+    width: 100% !important;
+  }
+  .need-help .need-us {
+    padding: 120px 0px 80px 0 !important;
+  }
+  .need-help {
+    height: 100% !important;
+  }
+  .FAQ-heading .faq-name h2 {
+    text-align: left;
+    font-size: 23px !important;
+  }
+  .FAQ-wrapper .faq-heading h5 {
+    font: normal normal bold 24px/50px Source Han Sans !important;
+  }
+  .FAQ-wrapper .faq-heading {
+    width: 38% !important;
+  }
+  .FAQ-wrapper .panel-heading a {
+    text-align: left;
+    font-size: 16px !important;
+  }
+  .FAQ-wrapper .img-blog img {
+    left: -156px !important;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /*=========== Devsmita (index-page 28-10-2020)===========*/
+  #feature:before {
+    height: 100px;
+  }
+  #create .create-blog {
+    width: 100% !important;
+    padding: 2rem 1rem 2rem !important;
+  }
+
+  #activity {
+    background-position: unset;
+  }
+  #activity:after {
+    height: 40%;
+    bottom: -47px;
+  }
+  #home {
+    padding-bottom: 12rem;
+  }
+  #activity .col-md-6 h2 {
+    margin-top: 30px;
+  }
+  #create .blue-btn {
+    font-size: 15px;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (about-page 28-10-2020)===========*/
+  .about-triangle {
+    height: 100vh !important;
+  }
+  .aboutus-wrapper .about-skew {
+    margin-top: 0 !important;
+  }
+  .aboutus-wrapper .join-now .join-us .join-btn {
+    bottom: 0 !important;
+    z-index: 1111 !important;
+    position: inherit;
+    display: table;
+    margin: auto;
+    padding: 7px 40px 10px;
+  }
+  .contact-wrapper .contact-desk .border-desk {
+    width: 100% !important;
+  }
+  .aboutus-wrapper .about-music h3 {
+    padding-top: 0;
+    font-family: source-han-sans-simplified-c, sans-serif;
+    word-break: break-all;
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (login-page 28-10-2020)===========*/
+  .login-section .login-main-box {
+    width: 100% !important;
+  }
+  .login-section .login-ft-box {
+    padding: 30px 20px !important;
+  }
+  #mainsec .login-section .login-main-box .social-box img {
+    width: 13px !important;
+    height: 13px !important;
+    object-fit: contain !important;
+    margin: 0 3px 0 5px !important;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (index-page 28-10-2020)===========*/
+  #feature:before {
+    height: 100px;
+  }
+  #create .create-blog {
+    width: 100% !important;
+    padding: 2rem 1rem 2rem !important;
+  }
+  #create .create-blog .create-flex .inner-blog h6 {
+    font-size: 12px !important;
+  }
+  #create .create-blog .create-flex .inner-blog img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .create-flex i.fas.fa-arrow-right {
+    font-size: 28px !important;
+    margin-bottom: unset !important;
+  }
+  #activity {
+    background-position: unset;
+  }
+  #activity:after {
+    height: 40%;
+    bottom: -47px;
+  }
+  #home {
+    padding-bottom: 12rem;
+  }
+  #activity .col-md-6 h2 {
+    margin-top: 30px;
+  }
+  #create .blue-btn {
+    font-size: 15px;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (about-page 28-10-2020)===========*/
+  .about-triangle {
+    height: 100vh !important;
+  }
+  .aboutus-wrapper .about-triangle .about-details {
+    padding-top: 0;
+  }
+  .aboutus-wrapper .about-music {
+    margin-top: 30px !important;
+  }
+  .aboutus-wrapper .about-triangle .about-details h2 {
+    font: inherit;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .aboutus-wrapper .about-triangle .about-details h5 {
+    font-size: 30px;
+  }
+  .aboutus-wrapper .join-now .join-us .join-btn {
+    bottom: -60px !important;
+    z-index: 1111 !important;
+  }
+  .contact-wrapper .contact-desk .border-desk {
+    width: 100% !important;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== Devsmita (login-page 28-10-2020)===========*/
+  .login-section .login-main-box {
+    width: 100% !important;
+  }
+  .login-section .login-ft-box {
+    padding: 30px 20px;
+  }
+  #mainsec .login-section .login-main-box .social-box img {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+    margin: 0 3px 0 5px;
+  }
+  .login-section .social-box a {
+    font-size: 7px;
+  }
+  #create .create-blog .create-flex .inner-blog img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+  #create .create-blog .create-flex .inner-blog h6 {
+    font-size: 10px !important;
+  }
+  .inner-blog {
+    width: min-content;
+  }
+  .create-flex i.fas.fa-arrow-right {
+    font-size: 22px !important;
+    margin-bottom: unset !important;
+  }
+  .aboutus-wrapper .about-triangle .tringal-img img {
+    margin: 35px 0 0 0;
+  }
+  #feature .row.mt-5 {
+    margin-top: 0 !important;
+  }
+  .blue-btn {
+    margin-top: 20px;
+  }
+  #feature {
+    padding: 2rem 0;
+  }
+  .aboutus-wrapper .contact-our {
+    margin-top: 70px;
+  }
+  .about-bottom-bg {
+    display: none;
+  }
+  .contact-wrapper {
+    padding: 10px 0 !important;
+  }
+  .aboutus-wrapper {
+    padding-bottom: 20px;
+  }
+  .login-section .login-ft-box h2 {
+    font-size: 30px;
+  }
+  .round-circle {
+    display: none;
+  }
+  .FAQ-heading .faq-name h2 {
+    margin-top: 20px !important;
+  }
+  .FAQ-wrapper {
+    margin-top: 20px !important;
+  }
+  .FAQ-wrapper .account {
+    margin-top: 50px !important;
+  }
+  .FAQ-wrapper .img-blog img {
+    display: none;
+  }
+  .FAQ-wrapper .account .acc-blog {
+    display: none;
+  }
+  .contact-heading .contact-name img {
+    padding: 0;
+    width: 100%;
+    height: 2px;
+  }
+  .contact-heading .contact-name h2 {
+    text-align: center !important;
+  }
+  .contact-wrapper .round img {
+    display: none;
+  }
+  /* ===========ends: Devsmita============ */
+
+  /*=========== drashti (contact-us 28-10-2020)===========*/
+  .contact-wrapper .contact-desk .border-desk {
+    width: 100% !important;
+  }
+  .login-section .social-box {
+    display: block;
+  }
+  .login-section .social-box a {
+    font-size: 13px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .blue-btn {
+    padding: 7px 15px 10px;
+    font-size: 13px;
+    width: auto;
+  }
+  #home {
+    padding-bottom: 1rem !important;
+  }
+  #create {
+    padding: 3rem 0;
+  }
+  #create .create-blog {
+    width: 100% !important;
+    padding: 3rem 1rem 2rem !important;
+    border-radius: 35px;
+  }
+  #create .create-blog {
+    padding: 2rem 1rem 2rem !important;
+  }
+  .contact-wrapper .contact-blog-res {
+    width: 100% !important;
+    margin: 0 auto 60px auto;
+  }
+  .contact-wrapper .contact-map iframe {
+    width: 295px !important;
+    height: 295px !important;
+  }
+  .contact-heading .con-wrap {
+    flex-direction: column !important;
+  }
+  .contact-heading .contact-info {
+    display: flex !important;
+    padding: 0 0 0 50px !important;
+    width: 100% !important;
+    margin: 0 0 0 0 !important;
+  }
+  .contact-heading {
+    overflow: hidden !important;
+    padding: 30px 0 40px 0 !important;
+  }
+  .contact-heading .contact-more {
+    margin: 10px 0 0 0 !important;
+  }
+  .contact-heading .con-wrap .contact-name {
+    margin: 0 0 20px 0 !important;
+  }
+  .contact-wrapper .round img {
+    position: absolute !important;
+    right: -248px !important;
+    width: 371px !important;
+    bottom: -217px !important;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /*=========== drashti (faq 28-10-2020)===========*/
+  .need-help .contact-desk .border-desk {
+    width: 100% !important;
+  }
+  .need-help .need-us {
+    padding: 120px 0px 80px 0 !important;
+  }
+  .need-help {
+    height: 100% !important;
+  }
+  .FAQ-wrapper .faq-heading h5 {
+    font: normal normal bold 24px/50px Source Han Sans !important;
+  }
+  .FAQ-wrapper .faq-heading {
+    width: 38% !important;
+  }
+  .FAQ-wrapper .panel-heading a {
+    text-align: left;
+    font-size: 16px !important;
+  }
+  .FAQ-wrapper .img-blog img {
+    left: -156px !important;
+  }
+  .contact-heading .contact-info .invite {
+    font-size: 12px;
+  }
+  .contact-heading .contact-info .social {
+    font-size: 12px;
+  }
+  .contact-wrapper .contact-btn .btn-send {
+    padding: 5px 35px 5px 35px !important;
+  }
+  #explore-drop-pf {
+    left: -99px !important;
+  }
+  .project-intractive-sec .file-upload .file-select .file-select-name {
+    font-size: 9px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+    width: 225px;
+  }
+  .project-intractive-sec .file-upload .file-select .file-select-button {
+    background: #00c3ff;
+    padding: 0 15px;
+    font-size: 12px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+  .upload-form .wrapper {
+    margin-bottom: 10px !important;
+  }
+  .orifdl-col {
+    margin-top: 20px;
+  }
+  .project-intractive-sec .file-upload .file-select {
+    width: 100%;
+    height: 35px;
+    display: flex;
+  }
+  /*=========== ends: drashti ===========*/
+}
+
+@media (max-width: 360px) {
+  /*=========== drashti ===========*/
+  .explor-details-lyrics .bicycle-blog {
+    padding: 50px 10px;
+  }
+  .explore-creation-lyrics-blog .music-composer-blog .music-user-blog {
+    width: 100%;
+  }
+
+  .explore_lyrics_common_block {
+    padding: 0 10px;
+  }
+  .explore-lyrics-wrapper .responsive-music {
+    flex-direction: column;
+  }
+  .lyrics-songes-like .feather-blog {
+    padding: 0 0 0 0;
+  }
+  .lyrics-comment .lyrics-music-user-blog-containt {
+    width: 100%;
+  }
+  .birds-blog {
+    padding: 50px 10px;
+  }
+  .explore-wrapper section {
+    padding: 0 0;
+  }
+  .inspired-by-blog .responsive-music {
+    flex-direction: column;
+  }
+  .songes-like .responsive-music {
+    flex-direction: column;
+  }
+  .songes-like .feather-blog {
+    padding: 0 0;
+  }
+  .birds-blog .vidio-blog {
+    top: -62px;
+  }
+  .explore-details-songes-wrapper section {
+    padding: 0 10px !important;
+  }
+  .explore-creation-songes-blog .music-composer-blog .music-user-blog {
+    width: 100% !important;
+  }
+  .explore-creation-songes-blog .music-composer-blog-songes .music-user-blog {
+    width: 100% !important;
+  }
+  .explore-creation-songes-blog .scrollbar {
+    width: 100% !important;
+  }
+  .inspired-by-songes-blog .responsive-music {
+    flex-direction: column;
+  }
+  .music-songes-like .responsive-music {
+    flex-direction: column;
+  }
+  .music-songes-like .feather-blog {
+    padding: 0 0 0 0 !important;
+  }
+  .songes-birds-blog {
+    padding: 50px 10px !important;
+  }
+  .songes-birds-blog .birds-containt-blog a {
+    font-size: 17px !important;
+  }
+  .songes-birds-blog .user-system-blog-img {
+    position: absolute;
+    right: 30px !important;
+  }
+  .songes-birds-blog .user-system-blog-containt {
+    position: absolute;
+    right: 79px !important;
+  }
+  .songes-birds-blog .user-system-blog {
+    position: absolute;
+    right: 129px !important;
+  }
+  .inspired-by-songes-blog .feather-blog {
+    padding: 0 10px !important;
+  }
+  /*=========== ends: drashti ===========*/
+
+  /* 28-20-2020 chaitali Merai  */
+  .pop-songes-wrapper .songes-birds-blog .user-system-blog {
+    right: 0 !important;
+  }
+
+  /* ravi 28-10-2020*/
+  .drop-not-mn {
+    width: 310px;
+    left: 0 !important;
+  }
+  /* End : ravi */
+}

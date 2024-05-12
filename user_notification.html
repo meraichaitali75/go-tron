@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Go Tron | Notification</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- responsive css -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="assets/css/custom_select.css" rel="stylesheet">
+  <style>
+    html,
+    body.notification_body {
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body class="notification_body">
+  <div id="wrapper" class="profile-wrapper notification_main_wrapper">
+    <aside id="sidebar-wrapper">
+      <div class="sidebar-brand">
+        <a href="explore_home.html">
+          <img src="./assets/img/favicon.png">
+          <h2>GoTron</h2>
+        </a>
+        <a href="javascript:;" id="close-icn"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+      <div class="user-block">
+        <a href="javascript:;"><img src="./assets/img/icons/puser.svg" class="user-img-1"></a>
+        <a href="javascript:;" class="user-bn">
+          <img src="./assets/img/icons/puser.svg" class="user-img">
+          <div class="ml-2">
+            <h4>Jeffrey</h4>
+            <p class="mb-0">CFO</p>
+          </div>
+        </a>
+      </div>
+      <ul class="sidebar-nav mt-2">
+        <li>
+          <a href="project_overall.html"><img src="./assets/img/icons/overall.svg"><span>Overall</span></a>
+        </li>
+        <li>
+          <a href="project_temp.html"><img src="./assets/img/icons/project.svg"><span>Projects</span></a>
+        </li>
+        <li>
+          <a href="upload.html"><img src="./assets/img/icons/upload.svg"><span>Upload</span></a>
+        </li>
+        <!-- <li>
+          <a href="javascript:;"><img src="./assets/img/icons/room.svg"><span>Practice Room</span></a>
+        </li> -->
+        <li>
+          <a href="user_notification.html"><img src="./assets/img/icons/notification.svg"><span>Notifications</span></a>
+        </li>
+        <li>
+          <a href="explore_home.html"><img src="./assets/img/icons/explore.svg"><span>Explore</span></a>
+        </li>
+        <li class="brdr-top">
+          <span class="grp-vnt">GROUPS</span>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/lyrics.svg"><span>Lyrics</span></a>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/lyrics.svg"><span>Music</span></a>
+        </li>
+        <li>
+          <a href="javascript:;"><img src="./assets/img/icons/explore.svg"><span>Add Group</span></a>
+        </li>
+      </ul>
+    </aside>
+    <div id="app-cover">
+      <div id="player">
+        <div id="player-track">
+          <div id="track-time">
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <div id="s-area">
+            <div id="ins-time"></div>
+            <div id="s-hover"></div>
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+        <div id="player-content">
+          <div id="album-art">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active"
+              id="_1">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+            <div id="buffer-box"></div>
+          </div>
+          <div id="album-name"></div>
+          <div id="player-controls">
+            <div class="add-play">
+              <div class="add-block text-right w-100">
+                <a href="javascript:;"><i class="fas fa-plus mr-2"></i></a>
+                <a href="javascript:;"><i class="fas fa-compress-alt"></i></a>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="control">
+                <div class="button" id="play-previous">
+                  <i class="fas fa-backward"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="button" id="play-pause-button">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="button" id="play-next">
+                  <i class="fas fa-forward"></i>
+                </div>
+              </div>
+            </div>
+            <div class="voice-block">
+              <a href="javascript:;"><i class="fas fa-volume-down mr-1"></i></a>
+              <span></span>
+              <a href="javascript:;"><i class="fas fa-volume-up ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="navbar-wrapper" class="common_search_dd">
+      <div class="sub-nav-box">
+        <nav class="navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header d-flex align-items-center">
+              <a href="#" class="navbar-brand sidebar-toggle"><img src="./assets/img/icons/menu-tg.svg" width="20"></a>
+              <a href="javascript:;" class="logo mr-auto d-md-block d-lg-none"><img src="assets/img/logo.png" alt=""
+                  class="img-fluid" width="120"></a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="explore_banner_row row">
+          <div class="input-group w-100">
+            <input type="text" class="form-control exp-hm-inp" placeholder="Search" aria-label="Search Songs">
+            <img src="./assets/img/icons/search.png" class="search_icon" alt="search icon">
+            <div class="input-group-append">
+              <div class="custom-select-wrapper" id="select_search1">
+                <div class="custom-select d-flex position-absolute" id="custom-select1">
+                  <div class="custom-select__trigger">
+                    <span id="dd_value1">Songs</span>
+                    <img src="./assets/img/icons/down_arrow.png" class="down_arrow" alt="Down Arrow">
+                  </div>
+                  <div class="custom-options">
+                    <span class="custom-option dropdown-value" data-value="Musics">Musics</span>
+                    <span class="custom-option dropdown-value" data-value="Songs">Songs</span>
+                    <span class="custom-option dropdown-value" data-value="Lyrics">Lyrics</span>
+                    <span class="custom-option dropdown-value" data-value="Users">Users</span>
+                    <span class="custom-option dropdown-value" data-value="Project">Project</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="upload-box">
+        <ul class="p-0 d-flex m-0">
+          <li><a href="javascript:;"><img src="./assets/img/icons/upload.svg"></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle not-drop-tg" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>5</span>
+            </a>
+            <div class="dropdown-menu drop-not-mn" aria-labelledby="navbarDropdownMenuLink">
+              <h3>Notifications</h3>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins1.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins2.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+              <div class="not-box">
+                <img src="./assets/img/icons/ins3.svg">
+                <p>Jeffrey Lui submitted a producer quote to your song GOGOGO.</p>
+                <div class="view-box d-flex align-items-center">
+                  <p class="m-0">2 hrs ago</p>
+                  <a href="user_notification.html">View</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main class="notification_content_wrapper">
+      <div class="notification_header">
+        <h3>Notifications</h3>
+        <p>3 New Notifications</p>
+      </div>
+      <ul class="common_tab_nav user_tab_nav nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active pl-0" id="pills-follows-tab" data-toggle="pill" href="#pills-follows" role="tab"
+            aria-controls="pills-follows" aria-selected="true">Follows</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-creation-tab" data-toggle="pill" href="#pills-creation" role="tab"
+            aria-controls="pills-creation" aria-selected="false">Creations</a>
+        </li>
+      </ul>
+      <div class="content-body">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-follows" role="tabpanel" aria-labelledby="pills-follows-tab">
+            <div class="notification_cards" id="notification_card1">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song&nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link" id="remove_notification1">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards" id="notification_card2">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link" id="remove_notification2">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards" id="notification_card3">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link" id="remove_notification3">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-creation" role="tabpanel" aria-labelledby="pills-creation-tab">
+            <div class="notification_cards" id="notification_card4">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link" id="remove_notification4">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards" id="notification_card5">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link" id="remove_notification5">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards" id="notification_card6">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link" id="remove_notification6">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+            <div class="notification_cards">
+              <div class="notification_row">
+                <div class="profile-block">
+                  <img src="./assets/img/follower1.png" class="follower_img" alt="follower Image 1">
+                  <span class="notification"></span>
+                  <div class="left-content-block">
+                    <h5>Andrew</h5>
+                    <div class="link_row">
+                      <a href="profile.html"><strong>Andrew</strong></a>
+                      <span>&nbsp;liked the song &nbsp;</span>
+                      <a href="explore_creation_details_songs.html"><strong>GOGOGO</strong></a>.
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-link">
+                  <span class="icofont-minus fa-lg"></span>
+                </button>
+              </div>
+              <div class="notification_footer_row">
+                <h5>2 hrs ago</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="site-footer-go">
+        <div class="container">
+          <p>© Copyrights GoTron 2019</p>
+          <ul class="p-0">
+            <li><a href="javascript:;"><img src="./assets/img/icons/twitter.svg"></a></li>
+            <li><a href="javascript:;"><img src="./assets/img/icons/facebook-f.svg"></a></li>
+            <li><a href="javascript:;"><img src="./assets/img/icons/linkedin.svg"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/player.js"></script>
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/font.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#select_search1').click(function () {
+        $("#custom-select1").toggleClass("open");
+      });
+      $("#custom-select1 .dropdown-value").on("click", function () {
+        var dataId = $(this).attr("data-value");
+        document.getElementById("dd_value1").innerHTML = dataId;
+      });
+      $("#remove_notification1").click(function () {
+        $('#notification_card1').fadeOut(1000, function(){ $(this).remove();});
+      });
+      $("#remove_notification2").click(function () {
+        $('#notification_card2').fadeOut(1000, function(){ $(this).remove();});
+      });
+      $("#remove_notification3").click(function () {
+        $('#notification_card3').fadeOut(1000, function(){ $(this).remove();});
+      });
+      $("#remove_notification4").click(function () {
+        $('#notification_card4').fadeOut(1000, function(){ $(this).remove();});
+      });
+      $("#remove_notification5").click(function () {
+        $('#notification_card5').fadeOut(1000, function(){ $(this).remove();});
+      });
+      $("#remove_notification6").click(function () {
+        $('#notification_card6').fadeOut(1000, function(){ $(this).remove();});
+      });
+    });
+
+    const $button = document.querySelector('.sidebar-toggle');
+    const $wrapper = document.querySelector('#wrapper');
+
+    $button.addEventListener('click', (e) => {
+      e.preventDefault();
+      $wrapper.classList.toggle('toggled');
+    });
+
+    $(document).ready(function () {
+      $('.sidebar-toggle').click(function () {
+        $('.grp-vnt,.user-img-1,.user-bn').toggle()
+      });
+    });
+  </script>
+  <script>
+
+    $(document).ready(function () {
+      $('#close-icn').click(function () {
+        $('#sidebar-wrapper').hide();
+      });
+    });
+
+    $(document).ready(function () {
+      $('.sidebar-toggle').click(function () {
+        $('#sidebar-wrapper').show();
+      });
+
+    });
+  </script>
+
+
+  <script>
+    const $button = document.querySelector('#sidebar-toggle');
+    const $wrapper = document.querySelector('#wrapper');
+
+    $button.addEventListener('click', (e) => {
+      e.preventDefault();
+      $wrapper.classList.toggle('toggled');
+    });
+
+    $(document).ready(function () {
+      $('#sidebar-toggle').click(function () {
+        $('.grp-vnt,.user-img-1,.user-bn').toggle()
+        // Alternative animation for example
+        // slideToggle("fast");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('#logout-tab').hide();
+      $('#setting-tab').click(function () {
+        $('#logout-tab').show();
+      });
+      $('#Exhibits-tab,#Basic').click(function () {
+        $('#logout-tab').hide();
+      });
+    });
+  </script>
+</body>
+
+</html>
